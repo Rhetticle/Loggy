@@ -1,0 +1,9 @@
+Removed Pin From Net: NetName=3V3 Pin=R58-1
+Removed Pin From Net: NetName=TEMP_SENSE Pin=R58-2
+Removed Pin From Net: NetName=GND Pin=RT1-1
+Removed Pin From Net: NetName=TEMP_SENSE Pin=RT1-2
+Change Component Comment : Designator=R58 Old Comment=1k ± 1% New Comment=40k ± 1%
+Added Pin To Net: NetName=TEMP_SENSE Pin=R58-1
+Added Pin To Net: NetName=GND Pin=R58-2
+Added Pin To Net: NetName=TEMP_SENSE Pin=RT1-1
+Added Pin To Net: NetName=3V3 Pin=RT1-2

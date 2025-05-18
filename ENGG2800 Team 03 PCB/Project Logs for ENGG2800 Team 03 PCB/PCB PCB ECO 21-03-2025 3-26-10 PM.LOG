@@ -1,0 +1,25 @@
+Added Component: Designator=C48(CAP-0805)
+Added Component: Designator=C49(CAP-0603)
+Added Component: Designator=C50(CAP-0603)
+Added Component: Designator=U19(TO-252_L)
+Add component (AddParameter): Name = "ComponentLink1Description"; Value = "Manufacturer URL"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink1URL"; Value = "http://www.st.com"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink2Description"; Value = "Datasheet"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink2URL"; Value = "http://www.st.com/internet/com/TECHNICAL_RESOURCES/TECHNICAL_LITERATURE/DATASHEET/CD00000447.pdf"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "DatasheetVersion"; Value = "1/11/2010"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "PackageDescription"; Value = "3-Pin Transistor Outline Package 2.28 mm Pitch, 9.7 mm Lead Span (DPAK)"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "PackageReference"; Value = "TO-252"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "PackageVersion"; Value = "2011"; VariantName = "[No Variations]"
+Added Pin To Net: NetName=GND Pin=C48-1
+Added Pin To Net: NetName=+12V Pin=C48-2
+Added Pin To Net: NetName=GND Pin=C49-1
+Added Pin To Net: NetName=+12V Pin=C49-2
+Added Pin To Net: NetName=GND Pin=C50-1
+Added Pin To Net: NetName=5V Pin=C50-2
+Added Pin To Net: NetName=+12V Pin=U19-1
+Added Pin To Net: NetName=5V Pin=U19-3
+Added Pin To Net: NetName=GND Pin=U19-4
+Added Member To Class: ClassName=Power Member=Component C48 1uF ± 10%
+Added Member To Class: ClassName=Power Member=Component C49 100nF ± 10%
+Added Member To Class: ClassName=Power Member=Component C50 100nF ± 10%
+Added Member To Class: ClassName=Power Member=Component U19 L78M05CDT-TR

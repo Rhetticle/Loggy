@@ -1,0 +1,25 @@
+Removed Pin From Net: NetName=LED_CLK Pin=U3-2
+Added Component: Designator=R28(RES-0603)
+Added Component: Designator=R35(RES-0603)
+Added Pin To Net: NetName=3V3 Pin=R28-1
+Added Pin To Net: NetName=I2C_SDA Pin=R28-2
+Added Pin To Net: NetName=3V3 Pin=R35-1
+Added Pin To Net: NetName=I2C_SCL Pin=R35-2
+Added Pin To Net: NetName=LCD_D4 Pin=U3-2
+Added Pin To Net: NetName=LCD_D5 Pin=U3-9
+Added Pin To Net: NetName=LCD_D6 Pin=U3-10
+Added Pin To Net: NetName=LCD_D7 Pin=U3-11
+Added Pin To Net: NetName=BTN1 Pin=U3-12
+Added Pin To Net: NetName=BTN2 Pin=U3-13
+Added Pin To Net: NetName=LCD_E Pin=U3-23
+Added Pin To Net: NetName=LCD_RS Pin=U3-24
+Added Pin To Net: NetName=LCD_RW Pin=U3-25
+Added Pin To Net: NetName=LED_CLK Pin=U3-32
+Added Pin To Net: NetName=AVR_RST Pin=U3-29
+Added Net: Name=AVR_RST
+Added Pin To Net: NetName=SAMPLE Pin=U3-26
+Added Net: Name=SAMPLE
+Added Pin To Net: NetName=TEMP_SENS Pin=U3-22
+Added Net: Name=TEMP_SENS
+Added Member To Class: ClassName=ATMega328p Member=Component R28 4k7 ± 5%
+Added Member To Class: ClassName=ATMega328p Member=Component R35 4k7 ± 5%

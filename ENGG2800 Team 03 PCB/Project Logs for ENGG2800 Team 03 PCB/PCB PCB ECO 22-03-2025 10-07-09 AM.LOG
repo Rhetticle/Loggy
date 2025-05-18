@@ -1,0 +1,98 @@
+Removed Pin From Net: NetName=GND Pin=D1-2
+Removed Pin From Net: NetName=GND Pin=D2-2
+Removed Pin From Net: NetName=GND Pin=D3-2
+Removed Pin From Net: NetName=GND Pin=D4-2
+Removed Pin From Net: NetName=GND Pin=D5-2
+Removed Pin From Net: NetName=GND Pin=D6-2
+Removed Pin From Net: NetName=GND Pin=D7-2
+Removed Pin From Net: NetName=GND Pin=D8-2
+Removed Pin From Net: NetName=GND Pin=D9-2
+Removed Pin From Net: NetName=GND Pin=D10-2
+Removed Pin From Net: NetName=GND Pin=D11-2
+Removed Pin From Net: NetName=GND Pin=D12-2
+Removed Pin From Net: NetName=GND Pin=D13-2
+Removed Pin From Net: NetName=GND Pin=D14-2
+Removed Pin From Net: NetName=GND Pin=D15-2
+Removed Pin From Net: NetName=GND Pin=D16-2
+Removed Pin From Net: NetName=GND Pin=R56-2
+Removed Pin From Net: NetName=GND Pin=U15-1
+Removed Pin From Net: NetName=LED_SIN Pin=U15-2
+Removed Pin From Net: NetName=LED_CLK Pin=U15-3
+Removed Pin From Net: NetName=NetR62_1 Pin=U15-4
+Removed Pin From Net: NetName=3V3 Pin=U15-24
+Removed Member From Class: ClassName=Alarms Member=U15
+Added Component: Designator=U?(SOP64P600X175-24N)
+Added Pin To Net: NetName=3V3 Pin=D1-1
+Added Pin To Net: NetName=3V3 Pin=D2-1
+Added Pin To Net: NetName=3V3 Pin=D3-1
+Added Pin To Net: NetName=3V3 Pin=D4-1
+Added Pin To Net: NetName=3V3 Pin=D5-1
+Added Pin To Net: NetName=3V3 Pin=D6-1
+Added Pin To Net: NetName=3V3 Pin=D7-1
+Added Pin To Net: NetName=3V3 Pin=D8-1
+Added Pin To Net: NetName=3V3 Pin=D9-1
+Added Pin To Net: NetName=3V3 Pin=D10-1
+Added Pin To Net: NetName=3V3 Pin=D11-1
+Added Pin To Net: NetName=3V3 Pin=D12-1
+Added Pin To Net: NetName=3V3 Pin=D13-1
+Added Pin To Net: NetName=3V3 Pin=D14-1
+Added Pin To Net: NetName=3V3 Pin=D15-1
+Added Pin To Net: NetName=3V3 Pin=D16-1
+Added Pin To Net: NetName=GND Pin=R56-1
+Added Pin To Net: NetName=GND Pin=U?-1
+Added Pin To Net: NetName=LED_SIN Pin=U?-2
+Added Pin To Net: NetName=LED_CLK Pin=U?-3
+Added Pin To Net: NetName=NetR62_1 Pin=U?-4
+Added Pin To Net: NetName=3V3 Pin=U?-24
+Added Pin To Net: NetName=NetD1_2 Pin=D1-2
+Added Pin To Net: NetName=NetD1_2 Pin=U?-12
+Added Net: Name=NetD1_2
+Added Pin To Net: NetName=NetD2_2 Pin=D2-2
+Added Pin To Net: NetName=NetD2_2 Pin=U?-11
+Added Net: Name=NetD2_2
+Added Pin To Net: NetName=NetD3_2 Pin=D3-2
+Added Pin To Net: NetName=NetD3_2 Pin=U?-10
+Added Net: Name=NetD3_2
+Added Pin To Net: NetName=NetD4_2 Pin=D4-2
+Added Pin To Net: NetName=NetD4_2 Pin=U?-9
+Added Net: Name=NetD4_2
+Added Pin To Net: NetName=NetD5_2 Pin=D5-2
+Added Pin To Net: NetName=NetD5_2 Pin=U?-8
+Added Net: Name=NetD5_2
+Added Pin To Net: NetName=NetD6_2 Pin=D6-2
+Added Pin To Net: NetName=NetD6_2 Pin=U?-7
+Added Net: Name=NetD6_2
+Added Pin To Net: NetName=NetD7_2 Pin=D7-2
+Added Pin To Net: NetName=NetD7_2 Pin=U?-6
+Added Net: Name=NetD7_2
+Added Pin To Net: NetName=NetD8_2 Pin=D8-2
+Added Pin To Net: NetName=NetD8_2 Pin=U?-5
+Added Net: Name=NetD8_2
+Added Pin To Net: NetName=NetD9_2 Pin=D9-2
+Added Pin To Net: NetName=NetD9_2 Pin=U?-13
+Added Net: Name=NetD9_2
+Added Pin To Net: NetName=NetD10_2 Pin=D10-2
+Added Pin To Net: NetName=NetD10_2 Pin=U?-14
+Added Net: Name=NetD10_2
+Added Pin To Net: NetName=NetD11_2 Pin=D11-2
+Added Pin To Net: NetName=NetD11_2 Pin=U?-15
+Added Net: Name=NetD11_2
+Added Pin To Net: NetName=NetD12_2 Pin=D12-2
+Added Pin To Net: NetName=NetD12_2 Pin=U?-16
+Added Net: Name=NetD12_2
+Added Pin To Net: NetName=NetD13_2 Pin=D13-2
+Added Pin To Net: NetName=NetD13_2 Pin=U?-17
+Added Net: Name=NetD13_2
+Added Pin To Net: NetName=NetD14_2 Pin=D14-2
+Added Pin To Net: NetName=NetD14_2 Pin=U?-18
+Added Net: Name=NetD14_2
+Added Pin To Net: NetName=NetD15_2 Pin=D15-2
+Added Pin To Net: NetName=NetD15_2 Pin=U?-19
+Added Net: Name=NetD15_2
+Added Pin To Net: NetName=NetD16_2 Pin=D16-2
+Added Pin To Net: NetName=NetD16_2 Pin=U?-20
+Added Net: Name=NetD16_2
+Added Pin To Net: NetName=NetR56_2 Pin=R56-2
+Added Pin To Net: NetName=NetR56_2 Pin=U?-23
+Added Net: Name=NetR56_2
+Added Member To Class: ClassName=Alarms Member=Component U? TLC59283DBQR

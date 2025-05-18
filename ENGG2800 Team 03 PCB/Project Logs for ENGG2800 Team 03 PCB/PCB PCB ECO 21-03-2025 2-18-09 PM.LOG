@@ -1,0 +1,8 @@
+Added Component: Designator=MH1(MH3)
+Added Component: Designator=MH2(MH3)
+Added Component: Designator=MH3(MH3)
+Added Component: Designator=MH4(MH3)
+Added Member To Class: ClassName=Hardware Member=Component MH1 Mouting Hole 3mm
+Added Member To Class: ClassName=Hardware Member=Component MH2 Mouting Hole 3mm
+Added Member To Class: ClassName=Hardware Member=Component MH3 Mouting Hole 3mm
+Added Member To Class: ClassName=Hardware Member=Component MH4 Mouting Hole 3mm

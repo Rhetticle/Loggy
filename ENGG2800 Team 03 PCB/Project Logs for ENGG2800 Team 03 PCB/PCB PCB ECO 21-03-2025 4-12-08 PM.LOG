@@ -1,0 +1,21 @@
+Added Component: Designator=TP2(Test Point 1mm)
+Added Component: Designator=TP3(Test Point 1mm)
+Added Component: Designator=TP4(Test Point 1mm)
+Added Component: Designator=TP5(Test Point 1mm)
+Added Component: Designator=TP6(Test Point 1mm)
+Added Component: Designator=TP7(Test Point 1mm)
+Added Component: Designator=TP8(Test Point 1mm)
+Added Pin To Net: NetName=CH2_10V_SCALE Pin=TP2-1
+Added Pin To Net: NetName=CH1_1V_SCALE Pin=TP3-1
+Added Pin To Net: NetName=CH2_1V_SCALE Pin=TP4-1
+Added Pin To Net: NetName=CH3_10V_SCALE Pin=TP5-1
+Added Pin To Net: NetName=CH4_10V_SCALE Pin=TP6-1
+Added Pin To Net: NetName=CH3_1V_SCALE Pin=TP7-1
+Added Pin To Net: NetName=CH4_1V_SCALE Pin=TP8-1
+Added Member To Class: ClassName=Channels [1,2] Member=Component TP2 Test Point 1mm
+Added Member To Class: ClassName=Channels [1,2] Member=Component TP3 Test Point 1mm
+Added Member To Class: ClassName=Channels [1,2] Member=Component TP4 Test Point 1mm
+Added Member To Class: ClassName=Channels [3,4] Member=Component TP5 Test Point 1mm
+Added Member To Class: ClassName=Channels [3,4] Member=Component TP6 Test Point 1mm
+Added Member To Class: ClassName=Channels [3,4] Member=Component TP7 Test Point 1mm
+Added Member To Class: ClassName=Channels [3,4] Member=Component TP8 Test Point 1mm

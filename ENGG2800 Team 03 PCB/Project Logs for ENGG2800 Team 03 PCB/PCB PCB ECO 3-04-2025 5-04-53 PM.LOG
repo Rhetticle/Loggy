@@ -1,0 +1,3 @@
+Added Component: Designator=TP18(TestPoint 3mm)
+Added Pin To Net: NetName=SEEED_3V3 Pin=TP18-1
+Added Member To Class: ClassName=Power Member=Component TP18 Test-Point 3mm

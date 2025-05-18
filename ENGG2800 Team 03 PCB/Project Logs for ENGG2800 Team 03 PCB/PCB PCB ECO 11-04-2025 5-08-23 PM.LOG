@@ -1,0 +1,21 @@
+Removed Pin From Net: NetName=10uA_OUT Pin=D19-1
+Removed Pin From Net: NetName=200uA_OUT Pin=D20-1
+Removed Pin From Net: NetName=10uA_OUT Pin=R68-1
+Removed Pin From Net: NetName=200uA_OUT Pin=R69-1
+Removed Member From Class: ClassName=Power Member=D19
+Removed Member From Class: ClassName=Power Member=D20
+Removed Member From Class: ClassName=Power Member=R68
+Removed Member From Class: ClassName=Power Member=R69
+Change Component Comment : Designator=R5 Old Comment=12k4 ± 1% New Comment=5k1 ± 1%
+Change Component Comment : Designator=U17 Old Comment=LM234DT New Comment=LM334
+Added Pin To Net: NetName=10uA_OUT Pin=R5-1
+Added Pin To Net: NetName=200uA_OUT Pin=R6-1
+Added Pin To Net: NetName=10uA_OUT Pin=U17-6
+Added Pin To Net: NetName=200uA_OUT Pin=U18-6
+Added Pin To Net: NetName=NetU17_1 Pin=U17-1
+Added Pin To Net: NetName=NetU17_1 Pin=VR3-1
+Added Net: Name=NetU17_1
+Added Pin To Net: NetName=NetU18_1 Pin=U18-1
+Added Pin To Net: NetName=NetU18_1 Pin=VR4-1
+Added Net: Name=NetU18_1
+Added Member To Class: ClassName=Power Member=Component C49 22uF

@@ -1,0 +1,16 @@
+Change Component Footprint: Designator=TP9 Old Footprint=KSTN-5010_V New Footprint=TestPoint 3mm
+Change Component Footprint: Designator=TP10 Old Footprint=KSTN-5010_V New Footprint=TestPoint 3mm
+Change Component Footprint: Designator=TP13 Old Footprint=KSTN-5010_V New Footprint=TestPoint 3mm
+Change Component Footprint: Designator=TP14 Old Footprint=KSTN-5010_V New Footprint=TestPoint 3mm
+Change Component Comment : Designator=TP9 Old Comment=5010 New Comment=Test-Point 3mm
+Change Component Comment : Designator=TP10 Old Comment=5010 New Comment=Test-Point 3mm
+Change Component Comment : Designator=TP13 Old Comment=5010 New Comment=Test-Point 3mm
+Change Component Comment : Designator=TP14 Old Comment=5010 New Comment=Test-Point 3mm
+Change Managed Component Library Link : Designator=TP9 Old VaultGUID=B7D15EC3-160A-466F-A46C-7801FE6295A7 New VaultGUID= Old ItemGUID=908B97FC-1D2D-441B-8CCC-1CD5557745E9 New ItemGUID= Old RevisionGUID=A91493D7-4C1E-48F2-AA31-EDCDBF6A297E New RevisionGUID=
+Change Managed Component Library Link : Designator=TP10 Old VaultGUID=B7D15EC3-160A-466F-A46C-7801FE6295A7 New VaultGUID= Old ItemGUID=908B97FC-1D2D-441B-8CCC-1CD5557745E9 New ItemGUID= Old RevisionGUID=A91493D7-4C1E-48F2-AA31-EDCDBF6A297E New RevisionGUID=
+Change Managed Component Library Link : Designator=TP13 Old VaultGUID=B7D15EC3-160A-466F-A46C-7801FE6295A7 New VaultGUID= Old ItemGUID=908B97FC-1D2D-441B-8CCC-1CD5557745E9 New ItemGUID= Old RevisionGUID=A91493D7-4C1E-48F2-AA31-EDCDBF6A297E New RevisionGUID=
+Change Managed Component Library Link : Designator=TP14 Old VaultGUID=B7D15EC3-160A-466F-A46C-7801FE6295A7 New VaultGUID= Old ItemGUID=908B97FC-1D2D-441B-8CCC-1CD5557745E9 New ItemGUID= Old RevisionGUID=A91493D7-4C1E-48F2-AA31-EDCDBF6A297E New RevisionGUID=
+Change component parameters: Designator = "TP9" ("TP9"); Footprint = "KSTN-5010_V"; UniqueID = "\GUAEIBUI" ("\GUAEIBUI")
+Change component parameters: Designator = "TP10" ("TP10"); Footprint = "KSTN-5010_V"; UniqueID = "\IAUNPKSI" ("\IAUNPKSI")
+Change component parameters: Designator = "TP13" ("TP13"); Footprint = "KSTN-5010_V"; UniqueID = "\SOYDAIVX" ("\SOYDAIVX")
+Change component parameters: Designator = "TP14" ("TP14"); Footprint = "KSTN-5010_V"; UniqueID = "\RKZREJXP" ("\RKZREJXP")

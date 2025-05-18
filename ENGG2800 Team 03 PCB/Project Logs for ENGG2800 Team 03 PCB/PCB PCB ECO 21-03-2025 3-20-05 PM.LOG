@@ -1,0 +1,14 @@
+Added Component: Designator=DISP1(ERM2004 40x2 LCD)
+Added Pin To Net: NetName=GND Pin=DISP1-1
+Added Pin To Net: NetName=3V3 Pin=DISP1-2
+Added Pin To Net: NetName=GND Pin=DISP1-3
+Added Pin To Net: NetName=LCD_RS Pin=DISP1-4
+Added Pin To Net: NetName=LCD_RW Pin=DISP1-5
+Added Pin To Net: NetName=LCD_E Pin=DISP1-6
+Added Pin To Net: NetName=LCD_D4 Pin=DISP1-11
+Added Pin To Net: NetName=LCD_D5 Pin=DISP1-12
+Added Pin To Net: NetName=LCD_D6 Pin=DISP1-13
+Added Pin To Net: NetName=LCD_D7 Pin=DISP1-14
+Added Pin To Net: NetName=5V Pin=DISP1-15
+Added Pin To Net: NetName=GND Pin=DISP1-16
+Added Member To Class: ClassName=Power Member=Component DISP1 ERM2004 40x2 LCD

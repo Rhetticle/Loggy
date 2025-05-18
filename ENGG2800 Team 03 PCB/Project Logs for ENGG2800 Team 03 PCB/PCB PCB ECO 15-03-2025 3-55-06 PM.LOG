@@ -1,0 +1,33 @@
+Removed Pin From Net: NetName=CH3_10V_SCALE Pin=R5-2
+Removed Pin From Net: NetName=CH4_10V_SCALE Pin=R6-2
+Removed Pin From Net: NetName=CH1_10V_SCALE Pin=R14-2
+Removed Pin From Net: NetName=CH1_1V_SCALE Pin=R18-2
+Removed Pin From Net: NetName=CH2_10V_SCALE Pin=R24-2
+Removed Pin From Net: NetName=CH2_1V_SCALE Pin=R28-2
+Removed Pin From Net: NetName=CH3_1V_SCALE Pin=R35-2
+Removed Pin From Net: NetName=CH4_1V_SCALE Pin=R36-2
+Removed Member From Class: ClassName=Channels [3,4] Member=R5
+Removed Member From Class: ClassName=Channels [3,4] Member=R6
+Removed Member From Class: ClassName=Channels [1,2] Member=R14
+Removed Member From Class: ClassName=Channels [1,2] Member=R18
+Removed Member From Class: ClassName=Channels [1,2] Member=R24
+Removed Member From Class: ClassName=Channels [1,2] Member=R28
+Removed Member From Class: ClassName=Channels [3,4] Member=R35
+Removed Member From Class: ClassName=Channels [3,4] Member=R36
+Added Pin To Net: NetName=CH3_10V_SCALE Pin=U1-6
+Added Pin To Net: NetName=CH3_10V_SCALE Pin=U1-7
+Added Pin To Net: NetName=CH3_1V_SCALE Pin=U1-8
+Added Pin To Net: NetName=CH3_1V_SCALE Pin=U1-9
+Added Pin To Net: NetName=CH4_10V_SCALE Pin=U2-6
+Added Pin To Net: NetName=CH4_10V_SCALE Pin=U2-7
+Added Pin To Net: NetName=CH4_1V_SCALE Pin=U2-8
+Added Pin To Net: NetName=CH4_1V_SCALE Pin=U2-9
+Added Pin To Net: NetName=CH1_10V_SCALE Pin=U4-6
+Added Pin To Net: NetName=CH1_10V_SCALE Pin=U4-7
+Added Pin To Net: NetName=CH1_1V_SCALE Pin=U4-8
+Added Pin To Net: NetName=CH1_1V_SCALE Pin=U4-9
+Added Pin To Net: NetName=CH2_10V_SCALE Pin=U5-6
+Added Pin To Net: NetName=CH2_10V_SCALE Pin=U5-7
+Added Pin To Net: NetName=CH2_1V_SCALE Pin=U5-8
+Added Pin To Net: NetName=CH2_1V_SCALE Pin=U5-9
+Change Class Name : Old Net Name=Power New Net Name=Alarms

@@ -1,0 +1,9 @@
+Added Component: Designator=D18(0603 LED)
+Added Component: Designator=R61(RES-0603)
+Added Pin To Net: NetName=GND Pin=D18-2
+Added Pin To Net: NetName=3V3 Pin=R61-1
+Added Pin To Net: NetName=NetD18_1 Pin=D18-1
+Added Pin To Net: NetName=NetD18_1 Pin=R61-2
+Added Net: Name=NetD18_1
+Added Member To Class: ClassName=Power Member=Component D18
+Added Member To Class: ClassName=Power Member=Component R61 330 ± 1%

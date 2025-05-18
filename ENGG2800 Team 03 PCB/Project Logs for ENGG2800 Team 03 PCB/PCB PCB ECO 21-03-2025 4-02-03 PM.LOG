@@ -1,0 +1,3 @@
+Added Component: Designator=TP1(TestPoint 3mm)
+Added Pin To Net: NetName=CH1_10V_SCALE Pin=TP1-1
+Added Member To Class: ClassName=Channels [1,2] Member=Component TP1 Test-Point 3mm

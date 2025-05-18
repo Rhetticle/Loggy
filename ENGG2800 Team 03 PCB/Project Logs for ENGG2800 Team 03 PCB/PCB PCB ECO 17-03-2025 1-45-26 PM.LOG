@@ -1,0 +1,17 @@
+Added Component: Designator=R58(RES-0603)
+Added Component: Designator=RT1(FP-NCU18-0_15-MFG)
+Add component (AddParameter): Name = "Case Code (Imperial)"; Value = "0603"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Case Code (Metric)"; Value = "1608"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Case/Package"; Value = "0603"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Max Operating Temperature"; Value = "125°C"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Min Operating Temperature"; Value = "-40°C"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "REACH SVHC"; Value = "No SVHC"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "RoHS Compliant"; Value = "Yes"; VariantName = "[No Variations]"
+Added Pin To Net: NetName=3V3 Pin=R58-1
+Added Pin To Net: NetName=GND Pin=RT1-1
+Added Pin To Net: NetName=TEMP_SENSE Pin=R58-2
+Added Pin To Net: NetName=TEMP_SENSE Pin=RT1-2
+Added Pin To Net: NetName=TEMP_SENSE Pin=U3-22
+Added Net: Name=TEMP_SENSE
+Added Member To Class: ClassName=Alarms Member=Component R58 10k ± 1%
+Added Member To Class: ClassName=Alarms Member=Component RT1 NCU18XH103F60RB

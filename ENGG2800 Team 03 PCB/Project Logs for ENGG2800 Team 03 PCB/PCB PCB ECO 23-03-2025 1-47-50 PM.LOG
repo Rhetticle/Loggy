@@ -1,0 +1,214 @@
+Change Component Designator: OldDesignator=FID1 NewDesignator=FD1
+Change Component Designator: OldDesignator=FID2 NewDesignator=FD2
+Change Component Designator: OldDesignator=FID3 NewDesignator=FD3
+Change Component Designator: OldDesignator=FID4 NewDesignator=FD4
+Change Component Designator: OldDesignator=FID5 NewDesignator=FD5
+Change Component Designator: OldDesignator=FID6 NewDesignator=FD6
+Added Component: Designator=C?(FP-GRM188-0_1-e0_2_0_55-IPC_A)
+Add component (AddParameter): Name = "Capacitance"; Value = "10uF"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Case Code (Imperial)"; Value = "0603"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Case Code (Metric)"; Value = "1608"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Case/Package"; Value = "0603"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Depth"; Value = "0.8mm"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Dielectric"; Value = "X5R"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Height"; Value = "0.8mm"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Lead Free"; Value = "Lead Free"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Length"; Value = "1.6mm"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Material"; Value = "Ceramic"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Max Operating Temperature"; Value = "85°C"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Min Operating Temperature"; Value = "-55°C"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Mount"; Value = "Surface Mount"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Package Quantity"; Value = "4000"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Packaging"; Value = "Tape and Reel"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Radiation Hardening"; Value = "No"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "REACH SVHC"; Value = "No SVHC"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Termination"; Value = "SMD/SMT"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Thickness"; Value = "0.035inch"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Tolerance"; Value = "20%"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Voltage"; Value = "6.3V"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Voltage Rating"; Value = "6.3V"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Voltage Rating (DC)"; Value = "6.3V"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Width"; Value = "0.031inch"; VariantName = "[No Variations]"
+Added Member To Class: ClassName=ATMega328p Member=Component C1 1uF ± 10%
+Added Member To Class: ClassName=ATMega328p Member=Component C2 100nF ± 10%
+Added Member To Class: ClassName=ATMega328p Member=Component C3 100nF ± 10%
+Added Member To Class: ClassName=ATMega328p Member=Component C4 100nF ± 10%
+Added Member To Class: ClassName=ATMega328p Member=Component C5 100nF ± 10%
+Added Member To Class: ClassName=ATMega328p Member=Component C6 16pF
+Added Member To Class: ClassName=ATMega328p Member=Component C7 16pF
+Added Member To Class: ClassName=Channels [1,2] Member=Component C8 100nF
+Added Member To Class: ClassName=Channels [1,2] Member=Component C9 100nF
+Added Member To Class: ClassName=Channels [3,4] Member=Component C10 100nF
+Added Member To Class: ClassName=Channels [3,4] Member=Component C11 100nF
+Added Member To Class: ClassName=ADC and IMU Member=Component C12 100nF
+Added Member To Class: ClassName=ADC and IMU Member=Component C13 100nF
+Added Member To Class: ClassName=ADC and IMU Member=Component C14 100nF
+Added Member To Class: ClassName=ADC and IMU Member=Component C15 100nF
+Added Member To Class: ClassName=ADC and IMU Member=Component C16 220nF
+Added Member To Class: ClassName=ADC and IMU Member=Component C17 220nF
+Added Member To Class: ClassName=ADC and IMU Member=Component C18 22nF
+Added Member To Class: ClassName=ADC and IMU Member=Component C19 22nF
+Added Member To Class: ClassName=ADC and IMU Member=Component C20 22nF
+Added Member To Class: ClassName=ADC and IMU Member=Component C21 22nF
+Added Member To Class: ClassName=ADC and IMU Member=Component C22 220nF
+Added Member To Class: ClassName=ADC and IMU Member=Component C23 220nF
+Added Member To Class: ClassName=ADC and IMU Member=Component C24 22nF
+Added Member To Class: ClassName=ADC and IMU Member=Component C25 22nF
+Added Member To Class: ClassName=ADC and IMU Member=Component C26 22nF
+Added Member To Class: ClassName=ADC and IMU Member=Component C27 22nF
+Added Member To Class: ClassName=ADC and IMU Member=Component C28 100nF
+Added Member To Class: ClassName=ADC and IMU Member=Component C29 100nF
+Added Member To Class: ClassName=Channels [1,2] Member=Component C30 100nF ± 10%
+Added Member To Class: ClassName=Channels [1,2] Member=Component C31 100nF ± 10%
+Added Member To Class: ClassName=Channels [1,2] Member=Component C32 100nF ± 10%
+Added Member To Class: ClassName=Channels [1,2] Member=Component C33 100nF ± 10%
+Added Member To Class: ClassName=Channels [3,4] Member=Component C34 100nF ± 10%
+Added Member To Class: ClassName=Channels [3,4] Member=Component C35 100nF ± 10%
+Added Member To Class: ClassName=Channels [3,4] Member=Component C36 100nF ± 10%
+Added Member To Class: ClassName=Channels [3,4] Member=Component C37 100nF ± 10%
+Added Member To Class: ClassName=Power Member=Component C38 1uF ± 10%
+Added Member To Class: ClassName=Power Member=Component C39 100nF ± 10%
+Added Member To Class: ClassName=Power Member=Component C40 100nF ± 10%
+Added Member To Class: ClassName=Power Member=Component C41 100nF ± 10%
+Added Member To Class: ClassName=Power Member=Component C42 100nF ± 10%
+Added Member To Class: ClassName=Buttons Member=Component C43 100nF ± 10%
+Added Member To Class: ClassName=Buttons Member=Component C44 100nF ± 10%
+Added Member To Class: ClassName=Buttons Member=Component C45 100nF ± 10%
+Added Member To Class: ClassName=Alarms Member=Component C46 100nF ± 10%
+Added Member To Class: ClassName=Alarms Member=Component C47 100nF ± 10%
+Added Member To Class: ClassName=Power Member=Component C48 1uF ± 10%
+Added Member To Class: ClassName=Power Member=Component C49 100nF ± 10%
+Added Member To Class: ClassName=Power Member=Component C50 100nF ± 10%
+Added Member To Class: ClassName=ATMega328p Member=Component C? 100n
+Added Member To Class: ClassName=Alarms Member=Component D1
+Added Member To Class: ClassName=Alarms Member=Component D2
+Added Member To Class: ClassName=Alarms Member=Component D3
+Added Member To Class: ClassName=Alarms Member=Component D4
+Added Member To Class: ClassName=Alarms Member=Component D5
+Added Member To Class: ClassName=Alarms Member=Component D6
+Added Member To Class: ClassName=Alarms Member=Component D7
+Added Member To Class: ClassName=Alarms Member=Component D8
+Added Member To Class: ClassName=Alarms Member=Component D9
+Added Member To Class: ClassName=Alarms Member=Component D10
+Added Member To Class: ClassName=Alarms Member=Component D11
+Added Member To Class: ClassName=Alarms Member=Component D12
+Added Member To Class: ClassName=Alarms Member=Component D13
+Added Member To Class: ClassName=Alarms Member=Component D14
+Added Member To Class: ClassName=Alarms Member=Component D16
+Added Member To Class: ClassName=ATMega328p Member=Component D17
+Added Member To Class: ClassName=Power Member=Component D18
+Added Member To Class: ClassName=Power Member=Component DISP1 ERM2004 40x2 LCD
+Added Member To Class: ClassName=Power Member=Component F1 0466001.NR
+Added Member To Class: ClassName=Power Member=Component F2 0466001.NR
+Added Member To Class: ClassName=Hardware Member=Component FD2 Fiducial 6mm
+Added Member To Class: ClassName=Hardware Member=Component FD3 Fiducial 6mm
+Added Member To Class: ClassName=Power Member=Component J1 691137710004
+Added Member To Class: ClassName=Power Member=Component J2 691137710004
+Added Member To Class: ClassName=ATMega328p Member=Component J3 61200621621
+Added Member To Class: ClassName=Power Member=Component J6 282836-2
+Added Member To Class: ClassName=Power Member=Component J7 282836-2
+Added Member To Class: ClassName=Power Member=Component J8 22-05-3031
+Added Member To Class: ClassName=Hardware Member=Component MH1 Mouting Hole 3mm
+Added Member To Class: ClassName=Hardware Member=Component MH2 Mouting Hole 3mm
+Added Member To Class: ClassName=Hardware Member=Component MH3 Mouting Hole 3mm
+Added Member To Class: ClassName=Hardware Member=Component MH4 Mouting Hole 3mm
+Added Member To Class: ClassName=Channels [3,4] Member=Component R1 8k ± 1%
+Added Member To Class: ClassName=Channels [3,4] Member=Component R2 8k ± 1%
+Added Member To Class: ClassName=Channels [3,4] Member=Component R3 40k ± 1%
+Added Member To Class: ClassName=Channels [3,4] Member=Component R4 40k ± 1%
+Added Member To Class: ClassName=Power Member=Component R5 6k ± 1%
+Added Member To Class: ClassName=Power Member=Component R6 340 ± 1%
+Added Member To Class: ClassName=Channels [3,4] Member=Component R7 10k ± 1%
+Added Member To Class: ClassName=Channels [3,4] Member=Component R8 10k ± 1%
+Added Member To Class: ClassName=Channels [3,4] Member=Component R9 8k ± 1%
+Added Member To Class: ClassName=Channels [3,4] Member=Component R10 8k ± 1%
+Added Member To Class: ClassName=Channels [3,4] Member=Component R11 40k ± 1%
+Added Member To Class: ClassName=Channels [1,2] Member=Component R12 8k ± 1%
+Added Member To Class: ClassName=Channels [1,2] Member=Component R13 40k ± 1%
+Added Member To Class: ClassName=Buttons Member=Component R14 10k ± 5%
+Added Member To Class: ClassName=Channels [1,2] Member=Component R15 10k ± 1%
+Added Member To Class: ClassName=Channels [1,2] Member=Component R16 8k ± 1%
+Added Member To Class: ClassName=Channels [1,2] Member=Component R17 40k ± 1%
+Added Member To Class: ClassName=Buttons Member=Component R18 10k ± 5%
+Added Member To Class: ClassName=Channels [1,2] Member=Component R19 10k ± 1%
+Added Member To Class: ClassName=Channels [1,2] Member=Component R20 90k ± 1%
+Added Member To Class: ClassName=Channels [1,2] Member=Component R21 10k ± 1%
+Added Member To Class: ClassName=Channels [1,2] Member=Component R22 8k ± 1%
+Added Member To Class: ClassName=Channels [1,2] Member=Component R23 40k ± 1%
+Added Member To Class: ClassName=Channels [1,2] Member=Component R25 10k ± 1%
+Added Member To Class: ClassName=Channels [1,2] Member=Component R26 8k ± 1%
+Added Member To Class: ClassName=Channels [1,2] Member=Component R27 40k ± 1%
+Added Member To Class: ClassName=ATMega328p Member=Component R28 4k7 ± 5%
+Added Member To Class: ClassName=Channels [1,2] Member=Component R29 10k ± 1%
+Added Member To Class: ClassName=Channels [1,2] Member=Component R30 90k ± 1%
+Added Member To Class: ClassName=Channels [1,2] Member=Component R31 10k ± 1%
+Added Member To Class: ClassName=Channels [1,2] Member=Component R32 10k ± 5%
+Added Member To Class: ClassName=Channels [1,2] Member=Component R33 10k ± 5%
+Added Member To Class: ClassName=Channels [3,4] Member=Component R34 40k ± 1%
+Added Member To Class: ClassName=ATMega328p Member=Component R35 4k7 ± 5%
+Added Member To Class: ClassName=ATMega328p Member=Component R36 4k7 ± 5%
+Added Member To Class: ClassName=Channels [3,4] Member=Component R37 10k ± 1%
+Added Member To Class: ClassName=Channels [3,4] Member=Component R38 10k ± 1%
+Added Member To Class: ClassName=Channels [3,4] Member=Component R39 90k ± 1%
+Added Member To Class: ClassName=Channels [3,4] Member=Component R40 90k ± 1%
+Added Member To Class: ClassName=Channels [3,4] Member=Component R41 10k ± 1%
+Added Member To Class: ClassName=Channels [3,4] Member=Component R42 10k ± 1%
+Added Member To Class: ClassName=Channels [3,4] Member=Component R43 10k ± 5%
+Added Member To Class: ClassName=Channels [3,4] Member=Component R44 10k ± 5%
+Added Member To Class: ClassName=ADC and IMU Member=Component R45 4k7
+Added Member To Class: ClassName=ADC and IMU Member=Component R46 4k7
+Added Member To Class: ClassName=ADC and IMU Member=Component R47 470
+Added Member To Class: ClassName=ADC and IMU Member=Component R48 470
+Added Member To Class: ClassName=ADC and IMU Member=Component R49 470
+Added Member To Class: ClassName=ADC and IMU Member=Component R50 470
+Added Member To Class: ClassName=ADC and IMU Member=Component R51 470
+Added Member To Class: ClassName=ADC and IMU Member=Component R52 470
+Added Member To Class: ClassName=ADC and IMU Member=Component R54 470
+Added Member To Class: ClassName=ADC and IMU Member=Component R55 10k
+Added Member To Class: ClassName=Alarms Member=Component R56 30k ± 1%
+Added Member To Class: ClassName=ATMega328p Member=Component R57 330 ± 5%
+Added Member To Class: ClassName=Alarms Member=Component R58 40k ± 1%
+Added Member To Class: ClassName=ATMega328p Member=Component R59 4k7 ± 5%
+Added Member To Class: ClassName=ATMega328p Member=Component R60 4k7 ± 5%
+Added Member To Class: ClassName=Power Member=Component R61 330 ± 1%
+Added Member To Class: ClassName=Alarms Member=Component R62 10k ± 1%
+Added Member To Class: ClassName=Alarms Member=Component R63 10k ± 1%
+Added Member To Class: ClassName=ATMega328p Member=Component R64 4k7 ± 5%
+Added Member To Class: ClassName=Alarms Member=Component RT1 NCU18XH103F60RB
+Added Member To Class: ClassName=Buttons Member=Component SW1 FSM4JSMATR
+Added Member To Class: ClassName=Buttons Member=Component SW2 FSM4JSMATR
+Added Member To Class: ClassName=Buttons Member=Component SW3 FSM4JSMATR
+Added Member To Class: ClassName=Channels [1,2] Member=Component TP1 Test Point 1mm
+Added Member To Class: ClassName=Channels [1,2] Member=Component TP2 Test Point 1mm
+Added Member To Class: ClassName=Channels [1,2] Member=Component TP3 Test Point 1mm
+Added Member To Class: ClassName=Channels [1,2] Member=Component TP4 Test Point 1mm
+Added Member To Class: ClassName=Channels [3,4] Member=Component TP5 Test Point 1mm
+Added Member To Class: ClassName=Channels [3,4] Member=Component TP6 Test Point 1mm
+Added Member To Class: ClassName=Channels [3,4] Member=Component TP7 Test Point 1mm
+Added Member To Class: ClassName=Channels [3,4] Member=Component TP8 Test Point 1mm
+Added Member To Class: ClassName=Power Member=Component TP13 Test-Point 3mm
+Added Member To Class: ClassName=Power Member=Component TP15 5011
+Added Member To Class: ClassName=Channels [3,4] Member=Component U1 LM324BIPWR
+Added Member To Class: ClassName=Channels [3,4] Member=Component U2 LM324BIPWR
+Added Member To Class: ClassName=ATMega328p Member=Component U3 ATmega328P-AU
+Added Member To Class: ClassName=Channels [1,2] Member=Component U4 LM324BIPWR
+Added Member To Class: ClassName=Channels [1,2] Member=Component U5 LM324BIPWR
+Added Member To Class: ClassName=Channels [1,2] Member=Component U6 SN74LVC1G3157DCKR
+Added Member To Class: ClassName=Channels [1,2] Member=Component U7 SN74LVC1G3157DCKR
+Added Member To Class: ClassName=Channels [3,4] Member=Component U8 SN74LVC1G3157DCKR
+Added Member To Class: ClassName=Channels [3,4] Member=Component U9 SN74LVC1G3157DCKR
+Added Member To Class: ClassName=ADC and IMU Member=Component U10 ADS1115IDGST
+Added Member To Class: ClassName=ADC and IMU Member=Component U11 ADS1115IDGST
+Added Member To Class: ClassName=ADC and IMU Member=Component U12 LM321LVIDCKR
+Added Member To Class: ClassName=ADC and IMU Member=Component U13 LM321LVIDCKR
+Added Member To Class: ClassName=ADC and IMU Member=Component U14 LIS3DHTR
+Added Member To Class: ClassName=Power Member=Component U16 LD1086DT33TR
+Added Member To Class: ClassName=Power Member=Component U17 LM234DT
+Added Member To Class: ClassName=Power Member=Component U18 LM234DT
+Added Member To Class: ClassName=Power Member=Component U19 L78M05CDT-TR
+Added Member To Class: ClassName=Power Member=Component U20 SEEDUINO XIAO
+Added Member To Class: ClassName=ADC and IMU Member=Component VR1 TC33X-2-103E
+Added Member To Class: ClassName=ADC and IMU Member=Component VR2 TC33X-2-103E
+Added Member To Class: ClassName=Power Member=Component VR3 TC33X-2-202E
+Added Member To Class: ClassName=Power Member=Component VR4 TC33X-2-202E
+Added Member To Class: ClassName=ATMega328p Member=Component Y1 16 MHz

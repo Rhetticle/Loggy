@@ -1,0 +1,22 @@
+Removed Pin From Net: NetName=+12V Pin=U1-4
+Removed Pin From Net: NetName=-12V Pin=U1-11
+Removed Pin From Net: NetName=+12V Pin=U2-4
+Removed Pin From Net: NetName=-12V Pin=U2-11
+Removed Pin From Net: NetName=+12V Pin=U4-4
+Removed Pin From Net: NetName=-12V Pin=U4-11
+Removed Pin From Net: NetName=+12V Pin=U5-4
+Removed Pin From Net: NetName=-12V Pin=U5-11
+Change Net Name : Old Net Name=+12V New Net Name=+14V
+Change Net Name : Old Net Name=-12V New Net Name=-14V
+Added Pin To Net: NetName=+12V Pin=U1-4
+Added Pin To Net: NetName=+12V Pin=U2-4
+Added Pin To Net: NetName=+12V Pin=U4-4
+Added Pin To Net: NetName=+12V Pin=U5-4
+Added Net: Name=+12V
+Added Pin To Net: NetName=-12V Pin=U1-11
+Added Pin To Net: NetName=-12V Pin=U2-11
+Added Pin To Net: NetName=-12V Pin=U4-11
+Added Pin To Net: NetName=-12V Pin=U5-11
+Added Net: Name=-12V
+Added Rule: Name=Schematic Supply Nets_5
+Added Rule: Name=Schematic Supply Nets_6

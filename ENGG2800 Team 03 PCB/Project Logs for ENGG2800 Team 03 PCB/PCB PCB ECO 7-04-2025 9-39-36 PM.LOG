@@ -1,0 +1,115 @@
+Removed Pin From Net: NetName=GND Pin=C48-1
+Removed Pin From Net: NetName=+14V Pin=C48-2
+Removed Pin From Net: NetName=+14V Pin=C49-2
+Removed Pin From Net: NetName=5V Pin=C50-2
+Removed Pin From Net: NetName=5V Pin=TP10-1
+Removed Pin From Net: NetName=GND Pin=TP12-1
+Removed Pin From Net: NetName=5V Pin=U19-3
+Removed Pin From Net: NetName=GND Pin=U19-4
+Removed Member From Class: ClassName=Power Member=TP10
+Removed Member From Class: ClassName=Power Member=TP12
+Change Component Footprint: Designator=C50 Old Footprint=CAP-0603 New Footprint=CAP-0805
+Change Component Footprint: Designator=C49 Old Footprint=CAP-0603 New Footprint=CAP-1206
+Change Component Footprint: Designator=C48 Old Footprint=CAP-0805 New Footprint=CAP-0603
+Change Component Footprint: Designator=U19 Old Footprint=DPAK228P1010X238-3N New Footprint=DRL0006A-MFG
+Change Component Footprint: Designator=U16 Old Footprint=TO-252_L New Footprint=DCY0004A_N
+Change Component Comment : Designator=C48 Old Comment=1uF ± 10% New Comment=100nF ± 10%
+Change Component Comment : Designator=C50 Old Comment=100nF ± 10% New Comment=1uF ± 10%
+Change Component Comment : Designator=C49 Old Comment=100nF ± 10% New Comment=22uF
+Change Component Comment : Designator=U19 Old Comment=L78M05CDT-TR New Comment=TPS561243DRLR
+Change Component Comment : Designator=U16 Old Comment=LD1086DT33TR New Comment=TLV1117LV33DCYR
+Change Managed Component Library Link : Designator=U16 Old VaultGUID=B7D15EC3-160A-466F-A46C-7801FE6295A7 New VaultGUID=B7D15EC3-160A-466F-A46C-7801FE6295A7 Old ItemGUID=02641AC5-2527-4FE9-AE1B-7476D09F0CFD New ItemGUID=8A2CB2F0-C13A-479F-AADE-2F25AEE895E8 Old RevisionGUID=A81471C2-232D-4197-A8BF-F0C414E02B62 New RevisionGUID=0FD1A707-ED41-4CF8-A760-4A2AFE2EA485
+Change component parameters: Designator = "U16" ("U16"); Footprint = "TO-252_L"; UniqueID = "\AHGDDYNZ" ("\AHGDDYNZ")
+Change component parameters (AddParameter): Name = "Accuracy(%)"; Value = "2"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Code_JEDEC"; Value = "TO-261"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "ComponentLink1Description"; Value = "Manufacturer URL"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "ComponentLink1URL"; Value = "http://www.ti.com/"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "ComponentLink2Description"; Value = "Datasheet"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "ComponentLink2URL"; Value = "http://www.ti.com/general/docs/lit/getliterature.tsp?genericPartNumber=TLV1117LV33&fileType=pdf"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "ComponentLink3Description"; Value = "Package Specification"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "ComponentLink3URL"; Value = "http://www.ti.com/litv/pdf/mpds094a"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "DatasheetVersion"; Value = "SBVS160A"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Eco-Plan"; Value = "Green (RoHS & no Sb/Br)"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Fixed Output Options(V)"; Value = "3.3"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Iout(Max)(A)"; Value = "1"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Iq(Typ)(mA)"; Value = "0.05"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Manufacturer"; Value = "Texas Instruments"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Mounting Technology"; Value = "Surface Mount"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "PackageDescription"; Value = "4-Pin Plastic Small Outline, Body 3.5 x 6.5 mm, Pitch 2.3 mm"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "PackageReference"; Value = "DCY0004A"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "PackageVersion"; Value = "4202506/B"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "PartNumber"; Value = "TLV1117LV33DCYR"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "SubFamily"; Value = "Single Channel LDO"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Vdo(Typ)(mV)"; Value = "1200"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Vin(Max)(V)"; Value = "5.5"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Vin(Min)(V)"; Value = "2"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Vout Adj(Max)(V)"; Value = "3.3"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Vout Adj(Min)(V)"; Value = "3.3"; VariantName = "[No Variations]"
+Change component parameters: Designator = "U19" ("U19"); Footprint = "DPAK228P1010X238-3N"; UniqueID = "\DGCAJXYF" ("\DGCAJXYF")
+Change component parameters (AddParameter): Name = "Mfr_Name"; Value = "Texas Instruments"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "RefDes"; Value = "RefDes"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "TYPE"; Value = "TYPE"; VariantName = "[No Variations]"
+Added Component: Designator=C53(CAP-0603)
+Added Component: Designator=L1(FP-CB3225-IPC_A)
+Add component (AddParameter): Name = "Case Code (Imperial)"; Value = "1210"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Case Code (Metric)"; Value = "3225"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Case/Package"; Value = "1210"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Core Material"; Value = "Ferrite"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Current Rating"; Value = "1.04A"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "DC Resistance (DCR)"; Value = "123.5mR"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Depth"; Value = "2.7mm"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Halogen Free"; Value = "Halogen Free"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Height"; Value = "2.5mm"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Inductance"; Value = "3.3uH"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Lead Free"; Value = "Lead Free"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Length"; Value = "3.2mm"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Max DC Current"; Value = "2A"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Max Operating Temperature"; Value = "105°C"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Min Operating Temperature"; Value = "-40°C"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Mount"; Value = "Surface Mount"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Package Quantity"; Value = "1000"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Packaging"; Value = "Tape and Reel"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Radiation Hardening"; Value = "No"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Resistor Type"; Value = "Wirewound"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "RoHS Compliant"; Value = "Yes"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Saturation Current"; Value = "2A"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Self Resonant Frequency"; Value = "160MHz"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Series"; Value = "CBC"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Shielding"; Value = "Unshielded"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Termination"; Value = "SMD/SMT"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Test Frequency"; Value = "100kHz"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Tolerance"; Value = "20%"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Weight"; Value = "0.000564oz"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Width"; Value = "2.5mm"; VariantName = "[No Variations]"
+Added Component: Designator=R70(RES-0603)
+Added Component: Designator=R71(RES-0603)
+Added Component: Designator=R72(RES-0603)
+Added Pin To Net: NetName=5V Pin=C48-2
+Added Pin To Net: NetName=5V Pin=C49-2
+Added Pin To Net: NetName=+14V Pin=C50-2
+Added Pin To Net: NetName=GND Pin=C53-1
+Added Pin To Net: NetName=+14V Pin=C53-2
+Added Pin To Net: NetName=5V Pin=L1-2
+Added Pin To Net: NetName=+14V Pin=R70-1
+Added Pin To Net: NetName=5V Pin=R71-1
+Added Pin To Net: NetName=GND Pin=R72-2
+Added Pin To Net: NetName=3V3 Pin=U16-2
+Added Pin To Net: NetName=GND Pin=U19-3
+Added Pin To Net: NetName=NetC48_1 Pin=C48-1
+Added Pin To Net: NetName=NetC48_1 Pin=U19-4
+Added Net: Name=NetC48_1
+Added Pin To Net: NetName=NetL1_1 Pin=L1-1
+Added Pin To Net: NetName=NetL1_1 Pin=U19-2
+Added Net: Name=NetL1_1
+Added Pin To Net: NetName=NetR70_2 Pin=R70-2
+Added Pin To Net: NetName=NetR70_2 Pin=U19-5
+Added Net: Name=NetR70_2
+Added Pin To Net: NetName=NetR71_2 Pin=R71-2
+Added Pin To Net: NetName=NetR71_2 Pin=R72-1
+Added Pin To Net: NetName=NetR71_2 Pin=U19-6
+Added Net: Name=NetR71_2
+Added Member To Class: ClassName=Power Member=Component C53 100nF ± 10%
+Added Member To Class: ClassName=Power Member=Component L1 3u3H
+Added Member To Class: ClassName=Power Member=Component R70 100k ± 1%
+Added Member To Class: ClassName=Power Member=Component R71 220k ± 1%
+Added Member To Class: ClassName=Power Member=Component R72 30k ± 1%

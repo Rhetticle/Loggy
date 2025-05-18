@@ -1,0 +1,3 @@
+Added Pin To Net: NetName=LED_SIN Pin=U3-1
+Added Pin To Net: NetName=LED_CLK  Pin=U3-2
+Added Net: Name=LED_CLK 

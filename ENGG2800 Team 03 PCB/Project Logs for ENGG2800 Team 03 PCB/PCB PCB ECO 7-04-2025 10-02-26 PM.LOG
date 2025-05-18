@@ -1,0 +1,17 @@
+Removed Pin From Net: NetName=NetC48_2 Pin=L1-1
+Removed Pin From Net: NetName=5V Pin=L1-2
+Change Component Footprint: Designator=L1 Old Footprint=FP-CB3225-IPC_A New Footprint=IND_TAIYO_CBC3225_TAY
+Change Component Comment : Designator=L1 Old Comment=3u3H New Comment=CBC3225T3R3MR
+Change Component Designator: OldDesignator=FID1 NewDesignator=FD1
+Change Component Designator: OldDesignator=FID2 NewDesignator=FD2
+Change Component Designator: OldDesignator=FID3 NewDesignator=FD3
+Change Component Designator: OldDesignator=FID4 NewDesignator=FD4
+Change Component Designator: OldDesignator=FID5 NewDesignator=FD5
+Change Component Designator: OldDesignator=FID6 NewDesignator=FD6
+Change Managed Component Library Link : Designator=L1 Old VaultGUID=B7D15EC3-160A-466F-A46C-7801FE6295A7 New VaultGUID= Old ItemGUID=8ED2873A-7F1E-4BBE-9C94-D847374FE476 New ItemGUID= Old RevisionGUID=DF9C0EBD-4679-4CE7-B5FC-D978A801B1AB New RevisionGUID=
+Change component parameters: Designator = "L1" ("L1"); Footprint = "FP-CB3225-IPC_A"; UniqueID = "\LTFSSAJF" ("\LTFSSAJF")
+Change component parameters (AddParameter): Name = "Mfr_Name"; Value = "Taiyo Yuden"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "RefDes"; Value = ""; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Type"; Value = ""; VariantName = "[No Variations]"
+Added Pin To Net: NetName=5V Pin=L1-1
+Added Pin To Net: NetName=NetC48_2 Pin=L1-2

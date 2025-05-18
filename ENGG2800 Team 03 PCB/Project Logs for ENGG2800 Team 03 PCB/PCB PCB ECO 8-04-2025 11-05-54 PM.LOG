@@ -1,0 +1,19 @@
+Removed Pin From Net: NetName=SEEED_3V3 Pin=R60-2
+Change Component Designator: OldDesignator=LED1 NewDesignator=D1
+Change Component Designator: OldDesignator=LED2 NewDesignator=D2
+Change Component Designator: OldDesignator=LED3 NewDesignator=D3
+Change Component Designator: OldDesignator=LED4 NewDesignator=D4
+Change Component Designator: OldDesignator=LED5 NewDesignator=D5
+Change Component Designator: OldDesignator=LED6 NewDesignator=D6
+Change Component Designator: OldDesignator=LED7 NewDesignator=D7
+Change Component Designator: OldDesignator=LED8 NewDesignator=D8
+Change Component Designator: OldDesignator=LED9 NewDesignator=D9
+Change Component Designator: OldDesignator=LED10 NewDesignator=D10
+Change Component Designator: OldDesignator=LED11 NewDesignator=D11
+Change Component Designator: OldDesignator=LED12 NewDesignator=D12
+Change Component Designator: OldDesignator=LED13 NewDesignator=D13
+Change Component Designator: OldDesignator=LED14 NewDesignator=D14
+Change Component Designator: OldDesignator=LED15 NewDesignator=D15
+Change Component Designator: OldDesignator=LED16 NewDesignator=D16
+Change Component Designator: OldDesignator=LED17 NewDesignator=D17
+Change Component Designator: OldDesignator=LED18 NewDesignator=D18

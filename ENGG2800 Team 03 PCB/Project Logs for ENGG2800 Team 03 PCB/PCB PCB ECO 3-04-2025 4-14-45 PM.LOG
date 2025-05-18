@@ -1,0 +1,6 @@
+Added Component: Designator=TP16(Test Point 1mm)
+Added Component: Designator=TP17(Test Point 1mm)
+Added Pin To Net: NetName=ADC1_VREF Pin=TP16-1
+Added Pin To Net: NetName=ADC2_VREF Pin=TP17-1
+Added Member To Class: ClassName=ADC and IMU Member=Component TP16 Test Point 1mm
+Added Member To Class: ClassName=ADC and IMU Member=Component TP17 Test Point 1mm

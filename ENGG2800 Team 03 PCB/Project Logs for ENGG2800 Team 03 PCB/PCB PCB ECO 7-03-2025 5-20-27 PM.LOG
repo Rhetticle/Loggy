@@ -1,0 +1,9 @@
+Removed Pin From Net: NetName=ADC_CH1 Pin=U10-4
+Removed Pin From Net: NetName=ADC1_VREF Pin=U10-5
+Removed Pin From Net: NetName=ADC_CH2 Pin=U10-6
+Removed Pin From Net: NetName=ADC_CH3 Pin=U11-4
+Removed Pin From Net: NetName=ADC2_VREF Pin=U11-5
+Added Pin To Net: NetName=ADC1_VREF Pin=U10-4
+Added Pin To Net: NetName=ADC_CH1 Pin=U10-5
+Added Pin To Net: NetName=ADC2_VREF Pin=U11-4
+Added Pin To Net: NetName=ADC_CH3 Pin=U11-5

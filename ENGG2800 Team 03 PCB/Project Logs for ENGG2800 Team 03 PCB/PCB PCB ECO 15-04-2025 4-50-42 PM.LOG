@@ -1,0 +1,40 @@
+Removed Member From Class: ClassName=Alarms Member=C47
+Removed Member From Class: ClassName=Power Member=F1
+Removed Member From Class: ClassName=Power Member=F2
+Removed Member From Class: ClassName=Power Member=J1
+Removed Member From Class: ClassName=Power Member=J2
+Removed Member From Class: ClassName=Power Member=J6
+Removed Member From Class: ClassName=Power Member=J7
+Removed Member From Class: ClassName=Power Member=J8
+Removed Member From Class: ClassName=Alarms Member=R58
+Removed Member From Class: ClassName=Alarms Member=RT1
+Removed Member From Class: ClassName=Power Member=TP13
+Removed Member From Class: ClassName=Power Member=TP14
+Removed Member From Class: ClassName=Power Member=TP15
+Removed Member From Class: ClassName=Power Member=U20
+Change Component Comment : Designator=C49 Old Comment=22uF New Comment=22uF ± 10%
+Change Component Comment : Designator=C51 Old Comment=22uF New Comment=22uF ± 10%
+Change Component Comment : Designator=L1 Old Comment=CBC3225T3R3MR New Comment=3u3 Isat=1.04A
+Added Member To Class: ClassName=Alarms Member=Component C43 100nF ± 10%
+Added Member To Class: ClassName=Alarms Member=Component C44 100nF ± 10%
+Added Member To Class: ClassName=Alarms Member=Component C45 100nF ± 10%
+Added Member To Class: ClassName=ATMega328p Member=Component C47 100nF ± 10%
+Added Member To Class: ClassName=Hardware Member=Component F1 SBF32102ASTP
+Added Member To Class: ClassName=Hardware Member=Component F2 SBF32102ASTP
+Added Member To Class: ClassName=Hardware Member=Component J1 691137710004
+Added Member To Class: ClassName=Hardware Member=Component J2 691137710004
+Added Member To Class: ClassName=Hardware Member=Component J6 282836-2
+Added Member To Class: ClassName=Hardware Member=Component J7 282836-2
+Added Member To Class: ClassName=Hardware Member=Component J8 22-05-3031
+Added Member To Class: ClassName=Alarms Member=Component R14 4k7 ± 1%
+Added Member To Class: ClassName=Alarms Member=Component R18 4k7 ± 1%
+Added Member To Class: ClassName=Alarms Member=Component R24 4k7 ± 1%
+Added Member To Class: ClassName=ATMega328p Member=Component R58 40k ± 1%
+Added Member To Class: ClassName=ATMega328p Member=Component RT1 NCU18XH103F60RB
+Added Member To Class: ClassName=Alarms Member=Component SW1 FSM4JSMATR
+Added Member To Class: ClassName=Alarms Member=Component SW2 FSM4JSMATR
+Added Member To Class: ClassName=Alarms Member=Component SW3 FSM4JSMATR
+Added Member To Class: ClassName=Hardware Member=Component TP13 Test-Point 3mm
+Added Member To Class: ClassName=Hardware Member=Component TP14 Test-Point 3mm
+Added Member To Class: ClassName=Hardware Member=Component TP15 5011
+Added Member To Class: ClassName=ATMega328p Member=Component U20 SEEDUINO XIAO

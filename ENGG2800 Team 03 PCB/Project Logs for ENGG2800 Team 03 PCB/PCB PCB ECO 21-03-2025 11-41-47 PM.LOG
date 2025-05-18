@@ -1,0 +1,10 @@
+Removed Pin From Net: NetName=SEEED_3V3 Pin=J5-2
+Removed Pin From Net: NetName=GND Pin=J5-3
+Removed Member From Class: ClassName=Power Member=J4
+Removed Member From Class: ClassName=Power Member=J5
+Added Component: Designator=U20(SEEEDUINO XIAO)
+Added Pin To Net: NetName=AVR_RX Pin=U20-7
+Added Pin To Net: NetName=AVR_TX Pin=U20-8
+Added Pin To Net: NetName=SEEED_3V3 Pin=U20-12
+Added Pin To Net: NetName=GND Pin=U20-13
+Added Member To Class: ClassName=Power Member=Component U20 SEEDUINO XIAO

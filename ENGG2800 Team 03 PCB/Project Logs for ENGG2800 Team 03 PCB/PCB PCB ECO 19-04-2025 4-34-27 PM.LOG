@@ -1,0 +1,7 @@
+Removed Member From Class: ClassName=Power Member=DISP1
+Added Component: Designator=C55(CAP-1206)
+Added Pin To Net: NetName=NetR64_2 Pin=C55-1
+Added Pin To Net: NetName=5V Pin=C55-2
+Change Net Name : Old Net Name=NetR64_2 New Net Name=NetC55_1
+Added Member To Class: ClassName=Power Member=Component C55 47pF ± 10%
+Added Member To Class: ClassName=Hardware Member=Component DISP1 ERM2004 40x2 LCD

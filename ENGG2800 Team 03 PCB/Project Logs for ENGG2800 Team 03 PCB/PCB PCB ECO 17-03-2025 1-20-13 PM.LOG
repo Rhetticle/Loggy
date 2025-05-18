@@ -1,0 +1,16 @@
+Removed Pin From Net: NetName=I2C_SDA Pin=R28-2
+Added Component: Designator=D17(0603 LED)
+Added Component: Designator=R36(RES-0603)
+Added Component: Designator=R57(RES-0603)
+Added Pin To Net: NetName=GND Pin=D17-2
+Added Pin To Net: NetName=AVR_RST Pin=R28-2
+Added Pin To Net: NetName=3V3 Pin=R36-1
+Added Pin To Net: NetName=I2C_SDA Pin=R36-2
+Added Pin To Net: NetName=SAMPLE Pin=R57-1
+Change Net Name : Old Net Name=SPI_CS New Net Name=CHAN_SELECT
+Added Pin To Net: NetName=NetD17_1 Pin=D17-1
+Added Pin To Net: NetName=NetD17_1 Pin=R57-2
+Added Net: Name=NetD17_1
+Added Member To Class: ClassName=ATMega328p Member=Component D17
+Added Member To Class: ClassName=ATMega328p Member=Component R36 4k7 ± 5%
+Added Member To Class: ClassName=ATMega328p Member=Component R57 100 ± 5%

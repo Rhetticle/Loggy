@@ -1,0 +1,40 @@
+Removed Pin From Net: NetName=+12V Pin=R5-1
+Removed Pin From Net: NetName=+12V Pin=R6-1
+Removed Pin From Net: NetName=10uA_OUT Pin=U17-2
+Removed Pin From Net: NetName=GND Pin=U17-3
+Removed Pin From Net: NetName=+12V Pin=U17-5
+Removed Pin From Net: NetName=200uA_OUT Pin=U18-2
+Removed Pin From Net: NetName=GND Pin=U18-3
+Removed Pin From Net: NetName=+12V Pin=U18-5
+Removed Member From Class: ClassName=Power Member=U17
+Removed Member From Class: ClassName=Power Member=U18
+Change Component Footprint: Designator=C41 Old Footprint=CAP-0603 New Footprint=CAP-0805
+Change Component Footprint: Designator=C42 Old Footprint=CAP-0603 New Footprint=CAP-0805
+Change Component Comment : Designator=R6 Old Comment=3k ± 1% New Comment=340 ± 1%
+Change Component Comment : Designator=C41 Old Comment=100nF ± 10% New Comment=1uF ± 10%
+Change Component Comment : Designator=C42 Old Comment=100nF ± 10% New Comment=1uF ± 10%
+Change Component Comment : Designator=R5 Old Comment=120k ± 1% New Comment=6k ± 1%
+Change Component Comment : Designator=VR3 Old Comment=TC33X-2-103E New Comment=TC33X-2-202E
+Change Component Comment : Designator=VR4 Old Comment=TC33X-2-103E New Comment=TC33X-2-202E
+Added Component: Designator=CR1(SO-8_STM)
+Add component (AddParameter): Name = "Mfr_Name"; Value = "STMicroelectronics"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "RefDes"; Value = "RefDes"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Type"; Value = "Type"; VariantName = "[No Variations]"
+Added Component: Designator=CR2(SO-8_STM)
+Add component (AddParameter): Name = "Mfr_Name"; Value = "STMicroelectronics"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "RefDes"; Value = "RefDes"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Type"; Value = "Type"; VariantName = "[No Variations]"
+Added Pin To Net: NetName=+12V Pin=CR1-4
+Added Pin To Net: NetName=10uA_OUT Pin=CR1-6
+Added Pin To Net: NetName=+12V Pin=CR2-4
+Added Pin To Net: NetName=200uA_OUT Pin=CR2-6
+Added Pin To Net: NetName=10uA_OUT Pin=R5-1
+Added Pin To Net: NetName=200uA_OUT Pin=R6-1
+Added Pin To Net: NetName=NetCR1_1 Pin=CR1-1
+Added Pin To Net: NetName=NetCR1_1 Pin=VR3-1
+Added Net: Name=NetCR1_1
+Added Pin To Net: NetName=NetCR2_1 Pin=CR2-1
+Added Pin To Net: NetName=NetCR2_1 Pin=VR4-1
+Added Net: Name=NetCR2_1
+Added Member To Class: ClassName=Power Member=Component CR1 LM234DT
+Added Member To Class: ClassName=Power Member=Component CR2 LM234DT

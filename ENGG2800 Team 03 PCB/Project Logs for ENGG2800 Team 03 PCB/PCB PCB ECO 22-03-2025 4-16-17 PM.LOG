@@ -1,0 +1,3 @@
+Added Component: Designator=R64(RES-0603)
+Added Pin To Net: NetName=SPI_MOSI Pin=R64-1
+Added Member To Class: ClassName=ATMega328p Member=Component R64 4k7 ± 5%

@@ -1,0 +1,12 @@
+Added Component: Designator=TP18(Test Point 1mm)
+Added Component: Designator=TP19(Test Point 1mm)
+Added Component: Designator=TP20(Test Point 1mm)
+Added Component: Designator=TP21(Test Point 1mm)
+Added Pin To Net: NetName=ADC_CH2 Pin=TP18-1
+Added Pin To Net: NetName=ADC_CH1 Pin=TP19-1
+Added Pin To Net: NetName=ADC_CH3 Pin=TP20-1
+Added Pin To Net: NetName=ADC_CH4 Pin=TP21-1
+Added Member To Class: ClassName=Channels [1,2] Member=Component TP18 Test Point 1mm
+Added Member To Class: ClassName=Channels [1,2] Member=Component TP19 Test Point 1mm
+Added Member To Class: ClassName=Channels [3,4] Member=Component TP20 Test Point 1mm
+Added Member To Class: ClassName=Channels [3,4] Member=Component TP21 Test Point 1mm

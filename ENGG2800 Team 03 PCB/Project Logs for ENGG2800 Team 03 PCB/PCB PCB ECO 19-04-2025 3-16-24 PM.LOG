@@ -1,0 +1,138 @@
+Removed Pin From Net: NetName=IN_CH4 Pin=U7-3
+Removed Pin From Net: NetName=IN_CH3_BUFF Pin=U7-12
+Removed Pin From Net: NetName=IN_CH3 Pin=U8-3
+Removed Pin From Net: NetName=IN_CH4_BUFF Pin=U8-12
+Removed Pin From Net: NetName=CH4_10V_SCALE Pin=U9-3
+Removed Pin From Net: NetName=CH3_10V_SCALE Pin=U10-3
+Removed Member From Class: ClassName=ADC and IMU Member=C10
+Removed Member From Class: ClassName=ADC and IMU Member=C14
+Removed Member From Class: ClassName=Channels [3,4] Member=C14
+Removed Member From Class: ClassName=ADC and IMU Member=C16
+Removed Member From Class: ClassName=ADC and IMU Member=C20
+Removed Member From Class: ClassName=ATMega328p Member=C28
+Removed Member From Class: ClassName=Channels [1,2] Member=C28
+Removed Member From Class: ClassName=Channels [1,2] Member=C35
+Removed Member From Class: ClassName=Channels [3,4] Member=C39
+Removed Member From Class: ClassName=Power Member=C42
+Removed Member From Class: ClassName=Alarms Member=C45
+Removed Member From Class: ClassName=ADC and IMU Member=C50
+Removed Member From Class: ClassName=Alarms Member=C52
+Removed Member From Class: ClassName=ATMega328p Member=J5
+Removed Member From Class: ClassName=ATMega328p Member=LED2
+Removed Member From Class: ClassName=Channels [3,4] Member=R3
+Removed Member From Class: ClassName=Channels [3,4] Member=R14
+Removed Member From Class: ClassName=Channels [3,4] Member=R18
+Removed Member From Class: ClassName=Channels [3,4] Member=R21
+Removed Member From Class: ClassName=Channels [3,4] Member=R22
+Removed Member From Class: ClassName=Channels [3,4] Member=R26
+Removed Member From Class: ClassName=ATMega328p Member=R31
+Removed Member From Class: ClassName=Channels [1,2] Member=R35
+Removed Member From Class: ClassName=Alarms Member=R55
+Removed Member From Class: ClassName=Power Member=R55
+Removed Member From Class: ClassName=Channels [1,2] Member=R57
+Removed Member From Class: ClassName=ADC and IMU Member=R58
+Removed Member From Class: ClassName=Alarms Member=R67
+Removed Member From Class: ClassName=ATMega328p Member=R67
+Removed Member From Class: ClassName=Alarms Member=SW1
+Removed Member From Class: ClassName=ADC and IMU Member=TP12
+Removed Member From Class: ClassName=Power Member=TP14
+Removed Member From Class: ClassName=Alarms Member=U2
+Removed Member From Class: ClassName=Power Member=U2
+Removed Member From Class: ClassName=Channels [3,4] Member=U6
+Added Pin To Net: NetName=IN_CH3 Pin=U7-3
+Added Pin To Net: NetName=IN_CH4_BUFF Pin=U7-12
+Added Pin To Net: NetName=IN_CH4 Pin=U8-3
+Added Pin To Net: NetName=IN_CH3_BUFF Pin=U8-12
+Added Pin To Net: NetName=CH3_10V_SCALE Pin=U9-3
+Added Pin To Net: NetName=CH4_10V_SCALE Pin=U10-3
+Change Net Name : Old Net Name=CH3_10V_SCALE New Net Name=CH4_10V_SCALE
+Change Net Name : Old Net Name=CH4_10V_SCALE New Net Name=CH3_10V_SCALE
+Change Net Name : Old Net Name=IN_CH3_BUFF New Net Name=IN_CH4_BUFF
+Change Net Name : Old Net Name=IN_CH4_BUFF New Net Name=IN_CH3_BUFF
+Added Member To Class: ClassName=ATMega328p Member=Component C6 100nF ± 10%
+Added Member To Class: ClassName=ATMega328p Member=Component C8 16pF
+Added Member To Class: ClassName=Channels [1,2] Member=Component C11 100nF ± 10%
+Added Member To Class: ClassName=Channels [1,2] Member=Component C12 100nF ± 10%
+Added Member To Class: ClassName=Channels [1,2] Member=Component C15 100nF ± 10%
+Added Member To Class: ClassName=Channels [3,4] Member=Component C17 100nF ± 10%
+Added Member To Class: ClassName=Channels [3,4] Member=Component C18 100nF ± 10%
+Added Member To Class: ClassName=Channels [3,4] Member=Component C19 100nF ± 10%
+Added Member To Class: ClassName=Channels [3,4] Member=Component C21 100nF ± 10%
+Added Member To Class: ClassName=ADC and IMU Member=Component C22 220nF ± 10%
+Added Member To Class: ClassName=ADC and IMU Member=Component C23 100nF
+Added Member To Class: ClassName=ADC and IMU Member=Component C24 22nF
+Added Member To Class: ClassName=ADC and IMU Member=Component C25 22nF
+Added Member To Class: ClassName=ADC and IMU Member=Component C26 22nF
+Added Member To Class: ClassName=ADC and IMU Member=Component C27 22nF
+Added Member To Class: ClassName=ADC and IMU Member=Component C29 220nF ± 10%
+Added Member To Class: ClassName=ADC and IMU Member=Component C30 220nF ± 10%
+Added Member To Class: ClassName=ADC and IMU Member=Component C31 22nF
+Added Member To Class: ClassName=ADC and IMU Member=Component C32 22nF
+Added Member To Class: ClassName=ADC and IMU Member=Component C33 22nF
+Added Member To Class: ClassName=ADC and IMU Member=Component C34 22nF
+Added Member To Class: ClassName=ADC and IMU Member=Component C36 100nF ± 10%
+Added Member To Class: ClassName=ADC and IMU Member=Component C38 100nF ± 10%
+Added Member To Class: ClassName=Alarms Member=Component C40 100nF ± 10%
+Added Member To Class: ClassName=Alarms Member=Component C41 100nF ± 10%
+Added Member To Class: ClassName=Alarms Member=Component C43 100nF ± 10%
+Added Member To Class: ClassName=Power Member=Component C44 100nF ± 10%
+Added Member To Class: ClassName=Power Member=Component C49 100nF ± 10%
+Added Member To Class: ClassName=Power Member=Component C51 100nF ± 10%
+Added Member To Class: ClassName=Power Member=Component C53 100nF ± 10%
+Added Member To Class: ClassName=ATMega328p Member=Component J1 61200621621
+Added Member To Class: ClassName=Hardware Member=Component J2 22-05-3031
+Added Member To Class: ClassName=Hardware Member=Component J6 691137710004
+Added Member To Class: ClassName=ATMega328p Member=Component LED1
+Added Member To Class: ClassName=Alarms Member=Component LED3
+Added Member To Class: ClassName=Alarms Member=Component LED5
+Added Member To Class: ClassName=Alarms Member=Component LED7
+Added Member To Class: ClassName=Alarms Member=Component LED9
+Added Member To Class: ClassName=Alarms Member=Component LED11
+Added Member To Class: ClassName=Alarms Member=Component LED13
+Added Member To Class: ClassName=Alarms Member=Component LED15
+Added Member To Class: ClassName=Alarms Member=Component LED17
+Added Member To Class: ClassName=ATMega328p Member=Component R1 4k7 ± 5%
+Added Member To Class: ClassName=ATMega328p Member=Component R5 4k7 ± 5%
+Added Member To Class: ClassName=ATMega328p Member=Component R8 10k ± 1%
+Added Member To Class: ClassName=Channels [1,2] Member=Component R11 40k ± 0.1%
+Added Member To Class: ClassName=Channels [1,2] Member=Component R12 40k ± 0.1%
+Added Member To Class: ClassName=Channels [1,2] Member=Component R15 8k ± 0.1%
+Added Member To Class: ClassName=Channels [1,2] Member=Component R20 10k ± 0.1%
+Added Member To Class: ClassName=Channels [1,2] Member=Component R23 10k ± 0.1%
+Added Member To Class: ClassName=Channels [1,2] Member=Component R24 10k ± 0.1%
+Added Member To Class: ClassName=Channels [1,2] Member=Component R25 4k7 ± 1%
+Added Member To Class: ClassName=Channels [3,4] Member=Component R27 8k ± 0.1%
+Added Member To Class: ClassName=Channels [3,4] Member=Component R28 8k ± 0.1%
+Added Member To Class: ClassName=Channels [3,4] Member=Component R29 40k ± 0.1%
+Added Member To Class: ClassName=Channels [3,4] Member=Component R30 40k ± 0.1%
+Added Member To Class: ClassName=Channels [3,4] Member=Component R32 10k ± 0.1%
+Added Member To Class: ClassName=Channels [3,4] Member=Component R33 8k ± 0.1%
+Added Member To Class: ClassName=Channels [3,4] Member=Component R34 8k ± 0.1%
+Added Member To Class: ClassName=Channels [3,4] Member=Component R36 40k ± 0.1%
+Added Member To Class: ClassName=ADC and IMU Member=Component R45 470 ± 1%
+Added Member To Class: ClassName=ADC and IMU Member=Component R46 4k7 ± 1%
+Added Member To Class: ClassName=ADC and IMU Member=Component R50 470 ± 1%
+Added Member To Class: ClassName=ADC and IMU Member=Component R52 470 ± 1%
+Added Member To Class: ClassName=ADC and IMU Member=Component R54 470 ± 1%
+Added Member To Class: ClassName=ADC and IMU Member=Component R55 4k7 ± 1%
+Added Member To Class: ClassName=ADC and IMU Member=Component R56 4k7 ± 1%
+Added Member To Class: ClassName=Alarms Member=Component R60 4k7 ± 1%
+Added Member To Class: ClassName=Alarms Member=Component R61 4k7 ± 1%
+Added Member To Class: ClassName=Alarms Member=Component R62 4k7 ± 1%
+Added Member To Class: ClassName=Power Member=Component R65 330 ± 1%
+Added Member To Class: ClassName=Alarms Member=Component SW2 FSM4JSMATR
+Added Member To Class: ClassName=Alarms Member=Component SW4 FSM4JSMATR
+Added Member To Class: ClassName=Channels [3,4] Member=Component TP5 Test Point 1mm
+Added Member To Class: ClassName=ADC and IMU Member=Component TP9 Test Point 1mm
+Added Member To Class: ClassName=Power Member=Component TP13 5011
+Added Member To Class: ClassName=Hardware Member=Component TP15 Test-Point 3mm
+Added Member To Class: ClassName=Channels [1,2] Member=Component U5 SN74LVC1G3157DCKR
+Added Member To Class: ClassName=Channels [3,4] Member=Component U7 LM324BIPWR
+Added Member To Class: ClassName=Channels [3,4] Member=Component U8 LM324BIPWR
+Added Member To Class: ClassName=Channels [3,4] Member=Component U9 SN74LVC1G3157DCKR
+Added Member To Class: ClassName=ADC and IMU Member=Component U13 ADS1115IDGST
+Added Member To Class: ClassName=ADC and IMU Member=Component U14 LM321LVIDCKR
+Added Member To Class: ClassName=Alarms Member=Component U16 TLC59283DBQR
+Added Member To Class: ClassName=Power Member=Component U17 TPS561243DRLR
+Added Member To Class: ClassName=Power Member=Component U18 TLV1117LV33DCYR
+Added Member To Class: ClassName=Power Member=Component U20 LM334

@@ -1,0 +1,24 @@
+Removed Pin From Net: NetName=NetR1_2 Pin=VR1-3
+Removed Pin From Net: NetName=NetR2_2 Pin=VR2-3
+Removed Pin From Net: NetName=NetR12_2 Pin=VR3-3
+Removed Pin From Net: NetName=NetR16_2 Pin=VR4-3
+Removed Pin From Net: NetName=NetR22_2 Pin=VR5-3
+Removed Pin From Net: NetName=NetR26_2 Pin=VR6-3
+Removed Pin From Net: NetName=NetR9_2 Pin=VR7-3
+Removed Pin From Net: NetName=NetR10_2 Pin=VR8-3
+Removed Member From Class: ClassName=Channels [3,4] Member=VR1
+Removed Member From Class: ClassName=Channels [3,4] Member=VR2
+Removed Member From Class: ClassName=Channels [1,2] Member=VR3
+Removed Member From Class: ClassName=Channels [1,2] Member=VR4
+Removed Member From Class: ClassName=Channels [1,2] Member=VR5
+Removed Member From Class: ClassName=Channels [1,2] Member=VR6
+Removed Member From Class: ClassName=Channels [3,4] Member=VR7
+Removed Member From Class: ClassName=Channels [3,4] Member=VR8
+Added Pin To Net: NetName=NetR1_2 Pin=R3-1
+Added Pin To Net: NetName=NetR2_2 Pin=R4-1
+Added Pin To Net: NetName=NetR9_2 Pin=R11-1
+Added Pin To Net: NetName=NetR12_2 Pin=R13-1
+Added Pin To Net: NetName=NetR16_2 Pin=R17-1
+Added Pin To Net: NetName=NetR22_2 Pin=R23-1
+Added Pin To Net: NetName=NetR26_2 Pin=R27-1
+Added Pin To Net: NetName=NetR10_2 Pin=R34-1

@@ -1,0 +1,6 @@
+Added Component: Designator=FD4(Fiducial 6mm)
+Added Component: Designator=FD5(Fiducial 6mm)
+Added Component: Designator=FD6(Fiducial 6mm)
+Added Member To Class: ClassName=Hardware Member=Component FD4 Fiducial 6mm
+Added Member To Class: ClassName=Hardware Member=Component FD5 Fiducial 6mm
+Added Member To Class: ClassName=Hardware Member=Component FD6 Fiducial 6mm

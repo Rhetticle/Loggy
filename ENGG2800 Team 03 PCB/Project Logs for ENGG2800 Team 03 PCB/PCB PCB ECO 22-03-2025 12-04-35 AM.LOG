@@ -1,0 +1,6 @@
+Added Component: Designator=R62(RES-0603)
+Added Pin To Net: NetName=3V3 Pin=R62-2
+Added Pin To Net: NetName=NetR62_1 Pin=R62-1
+Added Pin To Net: NetName=NetR62_1 Pin=U15-4
+Added Net: Name=NetR62_1
+Added Member To Class: ClassName=Alarms Member=Component R62 10k ± 1%

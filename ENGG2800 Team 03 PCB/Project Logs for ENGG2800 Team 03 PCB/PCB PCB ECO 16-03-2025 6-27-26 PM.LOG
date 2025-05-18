@@ -1,0 +1,4 @@
+Change Component Footprint: Designator=C41 Old Footprint=CAP-0805 New Footprint=CAP-0603
+Change Component Footprint: Designator=C42 Old Footprint=CAP-0805 New Footprint=CAP-0603
+Change Component Comment : Designator=C41 Old Comment=1uF ± 10% New Comment=100nF ± 10%
+Change Component Comment : Designator=C42 Old Comment=1uF ± 10% New Comment=100nF ± 10%

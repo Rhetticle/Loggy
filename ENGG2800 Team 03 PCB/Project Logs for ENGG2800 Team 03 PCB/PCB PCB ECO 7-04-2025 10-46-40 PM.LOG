@@ -1,0 +1,3 @@
+Added Component: Designator=TP10(TestPoint 3mm)
+Added Pin To Net: NetName=5V Pin=TP10-1
+Added Member To Class: ClassName=Power Member=Component TP10 Test-Point 3mm

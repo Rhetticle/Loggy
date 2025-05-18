@@ -1,0 +1,22 @@
+Added Component: Designator=C?(CAP-0603)
+Added Component: Designator=R?(RES-0603)
+Added Pin To Net: NetName=GND Pin=C?-1
+Added Pin To Net: NetName=3V3 Pin=C?-2
+Added Pin To Net: NetName=3V3 Pin=R?-2
+Added Pin To Net: NetName=3V3 Pin=U10-1
+Added Pin To Net: NetName=GND Pin=U10-3
+Added Pin To Net: NetName=ADC_CH1 Pin=U10-4
+Added Pin To Net: NetName=ADC_CH2 Pin=U10-5
+Added Pin To Net: NetName=ADC_CH3 Pin=U10-6
+Added Pin To Net: NetName=ADC_CH4 Pin=U10-7
+Added Pin To Net: NetName=3V3 Pin=U10-8
+Added Pin To Net: NetName=ADC_RDY Pin=R?-1
+Added Pin To Net: NetName=ADC_RDY Pin=U10-2
+Added Net: Name=ADC_RDY
+Added Pin To Net: NetName=I2C_SCL Pin=U10-10
+Added Net: Name=I2C_SCL
+Added Pin To Net: NetName=I2C_SDA Pin=U10-9
+Added Net: Name=I2C_SDA
+Added Member To Class: ClassName=ADC and IMU Member=Component C? CAP-0603
+Added Member To Class: ClassName=ADC and IMU Member=Component R? RES-0603
+Added Member To Class: ClassName=Channels [3,4] Member=Component U1 LM324BIPWR

@@ -1,0 +1,16 @@
+Removed Pin From Net: NetName=SPI_MISO Pin=J9-1
+Removed Pin From Net: NetName=SPI_CLK Pin=J9-2
+Removed Pin From Net: NetName=AVR_RST Pin=J9-3
+Removed Pin From Net: NetName=GND Pin=J9-4
+Removed Pin From Net: NetName=SPI_MOSI Pin=J9-5
+Removed Pin From Net: NetName=3V3 Pin=J9-6
+Removed Member From Class: ClassName=ATMega328p Member=J9
+Change Component Comment : Designator=R57 Old Comment=100 ± 5% New Comment=330 ± 5%
+Added Component: Designator=J3(61200621621)
+Added Pin To Net: NetName=SPI_MISO Pin=J3-1
+Added Pin To Net: NetName=3V3 Pin=J3-2
+Added Pin To Net: NetName=SPI_CLK Pin=J3-3
+Added Pin To Net: NetName=SPI_MOSI Pin=J3-4
+Added Pin To Net: NetName=AVR_RST Pin=J3-5
+Added Pin To Net: NetName=GND Pin=J3-6
+Added Member To Class: ClassName=ATMega328p Member=Component J3 61200621621

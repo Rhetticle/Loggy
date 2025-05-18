@@ -1,0 +1,7 @@
+Removed Pin From Net: NetName=GND Pin=R61-1
+Removed Pin From Net: NetName=SEEED_3V3 Pin=R61-2
+Removed Member From Class: ClassName=ATMega328p Member=R61
+Change Component Comment : Designator=R59 Old Comment=330 ± 5% New Comment=4k7 ± 5%
+Change Component Comment : Designator=R60 Old Comment=330 ± 5% New Comment=4k7 ± 5%
+Added Component: Designator=*(TestPoint 3mm)
+Added Member To Class: ClassName=Alarms Member=Component * Test-Point

@@ -1,0 +1,3 @@
+Change Component Footprint: Designator=U19 Old Footprint=TO-252_L New Footprint=DPAK228P1010X238-3N
+Change Managed Component Library Link : Designator=U19 Old VaultGUID=B7D15EC3-160A-466F-A46C-7801FE6295A7 New VaultGUID= Old ItemGUID=5C66E18C-FFDF-4415-8182-358265EA5DF1 New ItemGUID= Old RevisionGUID=B2C8CEEB-DC74-4B86-B864-5B1C157D0580 New RevisionGUID=
+Change component parameters: Designator = "U19" ("U19"); Footprint = "TO-252_L"; UniqueID = "\VDSOMPED" ("\VDSOMPED")

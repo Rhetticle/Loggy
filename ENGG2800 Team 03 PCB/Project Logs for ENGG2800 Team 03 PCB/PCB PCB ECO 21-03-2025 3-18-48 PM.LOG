@@ -1,0 +1,27 @@
+Removed Pin From Net: NetName=GND Pin=J3-1
+Removed Pin From Net: NetName=3V3 Pin=J3-2
+Removed Pin From Net: NetName=3V3 Pin=J3-3
+Removed Pin From Net: NetName=LCD_RS Pin=J3-4
+Removed Pin From Net: NetName=LCD_RW Pin=J3-5
+Removed Pin From Net: NetName=LCD_E Pin=J3-6
+Removed Pin From Net: NetName=LCD_D4 Pin=J3-11
+Removed Pin From Net: NetName=LCD_D5 Pin=J3-12
+Removed Pin From Net: NetName=LCD_D6 Pin=J3-13
+Removed Pin From Net: NetName=LCD_D7 Pin=J3-14
+Removed Pin From Net: NetName=3V3 Pin=J3-15
+Removed Pin From Net: NetName=GND Pin=J3-16
+Removed Member From Class: ClassName=Power Member=J3
+Add Pin To Net: Unknown Pin: Pin DISP1-1
+Add Pin To Net: Unknown Pin: Pin DISP1-2
+Add Pin To Net: Unknown Pin: Pin DISP1-3
+Add Pin To Net: Unknown Pin: Pin DISP1-4
+Add Pin To Net: Unknown Pin: Pin DISP1-5
+Add Pin To Net: Unknown Pin: Pin DISP1-6
+Add Pin To Net: Unknown Pin: Pin DISP1-11
+Add Pin To Net: Unknown Pin: Pin DISP1-12
+Add Pin To Net: Unknown Pin: Pin DISP1-13
+Add Pin To Net: Unknown Pin: Pin DISP1-14
+Add Pin To Net: Unknown Pin: Pin DISP1-16
+Added Net: Name=5V
+Add Class Member: Failed to add class member : Component DISP1 ERM2004 40x2 LCD
+Added Rule: Name=Schematic Supply Nets_4

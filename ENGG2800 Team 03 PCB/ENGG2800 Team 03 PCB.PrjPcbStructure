@@ -1,0 +1,8 @@
+Record=TopLevelDocument|FileName=ADC and IMU.SchDoc|SheetNumber=4
+Record=NoMainPathDocument|SourceDocument=ADC and IMU.SchDoc|FileName=Alarms.SchDoc|SheetNumber=5
+Record=NoMainPathDocument|SourceDocument=ADC and IMU.SchDoc|FileName=ATMega328p.SchDoc|SheetNumber=1
+Record=NoMainPathDocument|SourceDocument=ADC and IMU.SchDoc|FileName=Cables.SchDoc|SheetNumber=8
+Record=NoMainPathDocument|SourceDocument=ADC and IMU.SchDoc|FileName=Channels [1,2].SchDoc|SheetNumber=2
+Record=NoMainPathDocument|SourceDocument=ADC and IMU.SchDoc|FileName=Channels [3,4].SchDoc|SheetNumber=3
+Record=NoMainPathDocument|SourceDocument=ADC and IMU.SchDoc|FileName=Hardware.SchDoc|SheetNumber=7
+Record=NoMainPathDocument|SourceDocument=ADC and IMU.SchDoc|FileName=Power.SchDoc|SheetNumber=6

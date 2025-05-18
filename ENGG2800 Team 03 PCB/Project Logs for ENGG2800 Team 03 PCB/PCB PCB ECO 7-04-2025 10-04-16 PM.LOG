@@ -1,0 +1,7 @@
+Added Component: Designator=L1(IND_TAIYO_CBC3225_TAY)
+Add component (AddParameter): Name = "Mfr_Name"; Value = "Taiyo Yuden"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "RefDes"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Type"; Value = ""; VariantName = "[No Variations]"
+Added Pin To Net: NetName=5V Pin=L1-1
+Added Pin To Net: NetName=NetC48_2 Pin=L1-2
+Added Member To Class: ClassName=Power Member=Component L1 CBC3225T3R3MR

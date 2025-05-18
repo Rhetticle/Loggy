@@ -1,0 +1,10 @@
+Removed Pin From Net: NetName=AVR_RX Pin=U20-7
+Removed Pin From Net: NetName=AVR_TX Pin=U20-8
+Removed Pin From Net: NetName=AVR_RX Pin=U21-2
+Removed Pin From Net: NetName=AVR_TX Pin=U21-3
+Added Pin To Net: NetName=SEEED_RX Pin=U20-8
+Added Pin To Net: NetName=SEEED_RX Pin=U21-3
+Added Net: Name=SEEED_RX
+Added Pin To Net: NetName=SEEED_TX Pin=U20-7
+Added Pin To Net: NetName=SEEED_TX Pin=U21-2
+Added Net: Name=SEEED_TX

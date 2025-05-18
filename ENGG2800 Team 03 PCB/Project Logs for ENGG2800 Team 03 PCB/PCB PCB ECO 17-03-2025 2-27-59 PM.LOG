@@ -1,0 +1,8 @@
+Added Component: Designator=J9(61200621621)
+Added Pin To Net: NetName=SPI_MOSI Pin=J9-1
+Added Pin To Net: NetName=BTN3 Pin=J9-2
+Added Pin To Net: NetName=AVR_RST Pin=J9-3
+Added Pin To Net: NetName=GND Pin=J9-4
+Added Pin To Net: NetName=SPI_MOSI Pin=J9-5
+Added Pin To Net: NetName=3V3 Pin=J9-6
+Added Member To Class: ClassName=ATMega328p Member=Component J9 61200621621

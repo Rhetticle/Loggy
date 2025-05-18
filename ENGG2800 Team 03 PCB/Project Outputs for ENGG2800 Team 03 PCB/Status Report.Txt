@@ -1,0 +1,20 @@
+Output: Gerber X2 Files
+Type  : GerberX2
+From  : Variant [[No Variations]] of Project [ENGG2800 Team 03 PCB.PrjPcb]
+   Generated File[PCB_Copper_Signal_Top.gbr]
+   Generated File[PCB_Copper_Signal_Bot.gbr]
+   Generated File[PCB_Legend_Top.gbr]
+   Generated File[PCB_Legend_Bot.gbr]
+   Generated File[PCB_Soldermask_Top.gbr]
+   Generated File[PCB_Soldermask_Bot.gbr]
+   Generated File[PCB_Profile.gbr]
+   Generated File[PCB_NPTH_Drill.gbr]
+   Generated File[PCB_PTH_Drill.gbr]
+   Generated File[PCB.EXTREP]
+   Generated File[PCB.REP]
+
+
+Files Generated   : 11
+Documents Printed : 0
+
+Finished Output Generation At 10:57:52 AM On 20/04/2025

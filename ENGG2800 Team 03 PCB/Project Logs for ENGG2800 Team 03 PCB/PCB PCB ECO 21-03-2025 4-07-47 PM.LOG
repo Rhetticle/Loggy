@@ -1,0 +1,2 @@
+Change Footprint: Cannot match pads with new footprint in component :TP1 Footprint:Test Point 1mm
+Change Component Comment : Designator=TP1 Old Comment=Test-Point 3mm New Comment=Test Point 1mm

@@ -1,0 +1,18 @@
+Removed Pin From Net: NetName=BTN3 Pin=J9-2
+Removed Pin From Net: NetName=BTN3 Pin=U3-17
+Added Component: Designator=R59(RES-0603)
+Added Component: Designator=R60(RES-0603)
+Added Pin To Net: NetName=BTN3 Pin=R59-2
+Added Pin To Net: NetName=SPI_MISO Pin=R60-1
+Change Net Name : Old Net Name=SEED_5V New Net Name=SEEED_5V
+Added Pin To Net: NetName=SEEED_3V3 Pin=J5-2
+Added Pin To Net: NetName=SEEED_3V3 Pin=R60-2
+Added Net: Name=SEEED_3V3
+Added Pin To Net: NetName=SPI_CLK Pin=J9-2
+Added Pin To Net: NetName=SPI_CLK Pin=R59-1
+Added Pin To Net: NetName=SPI_CLK Pin=U3-17
+Added Net: Name=SPI_CLK
+Added Member To Class: ClassName=ATMega328p Member=Component R59 330 ± 5%
+Added Member To Class: ClassName=ATMega328p Member=Component R60 330 ± 5%
+Added Rule: Name=Schematic Supply Nets_6
+Added Rule: Name=Schematic Supply Nets_7

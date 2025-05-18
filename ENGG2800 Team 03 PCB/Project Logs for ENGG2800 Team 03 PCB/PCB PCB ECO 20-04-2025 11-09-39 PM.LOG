@@ -1,0 +1,7 @@
+Removed Member From Class: ClassName=Power Member=C55
+Added Member To Class: ClassName=Power Member=Component C47 47pF ± 10%
+Added Member To Class: ClassName=Power Member=Component C49 100nF ± 10%
+Added Member To Class: ClassName=Power Member=Component C52 100nF ± 10%
+Added Member To Class: ClassName=Power Member=Component C54 100nF ± 10%
+Added Member To Class: ClassName=Power Member=Component R67 330 ± 1%
+Added Member To Class: ClassName=Power Member=Component U19 TLV1117LV33DCYR

@@ -1,0 +1,168 @@
+Removed Pin From Net: NetName=GND Pin=C30-1
+Removed Pin From Net: NetName=3V3 Pin=C30-2
+Removed Pin From Net: NetName=GND Pin=C31-1
+Removed Pin From Net: NetName=3V3 Pin=C31-2
+Removed Pin From Net: NetName=GND Pin=D17-2
+Removed Pin From Net: NetName=GND Pin=D18-2
+Removed Pin From Net: NetName=GND Pin=D19-2
+Removed Pin From Net: NetName=GND Pin=D20-2
+Removed Pin From Net: NetName=GND Pin=D21-2
+Removed Pin From Net: NetName=GND Pin=D22-2
+Removed Pin From Net: NetName=GND Pin=D23-2
+Removed Pin From Net: NetName=GND Pin=D24-2
+Removed Pin From Net: NetName=GND Pin=D25-2
+Removed Pin From Net: NetName=GND Pin=D26-2
+Removed Pin From Net: NetName=GND Pin=D27-2
+Removed Pin From Net: NetName=GND Pin=D28-2
+Removed Pin From Net: NetName=GND Pin=D29-2
+Removed Pin From Net: NetName=GND Pin=D30-2
+Removed Pin From Net: NetName=GND Pin=D31-2
+Removed Pin From Net: NetName=GND Pin=D32-2
+Removed Pin From Net: NetName=NetR56_1 Pin=U17-3
+Removed Pin From Net: NetName=GND Pin=U17-7
+Removed Pin From Net: NetName=3V3 Pin=U17-14
+Removed Pin From Net: NetName=GND Pin=U18-7
+Removed Pin From Net: NetName=3V3 Pin=U18-14
+Removed Member From Class: ClassName=Power Member=C30
+Removed Member From Class: ClassName=Power Member=C31
+Removed Member From Class: ClassName=Power Member=D17
+Removed Member From Class: ClassName=Power Member=D18
+Removed Member From Class: ClassName=Power Member=D19
+Removed Member From Class: ClassName=Power Member=D20
+Removed Member From Class: ClassName=Power Member=D21
+Removed Member From Class: ClassName=Power Member=D22
+Removed Member From Class: ClassName=Power Member=D23
+Removed Member From Class: ClassName=Power Member=D24
+Removed Member From Class: ClassName=Power Member=D25
+Removed Member From Class: ClassName=Power Member=D26
+Removed Member From Class: ClassName=Power Member=D27
+Removed Member From Class: ClassName=Power Member=D28
+Removed Member From Class: ClassName=Power Member=D29
+Removed Member From Class: ClassName=Power Member=D30
+Removed Member From Class: ClassName=Power Member=D31
+Removed Member From Class: ClassName=Power Member=D32
+Removed Member From Class: ClassName=Power Member=R57
+Removed Member From Class: ClassName=Power Member=R58
+Removed Member From Class: ClassName=Power Member=R59
+Removed Member From Class: ClassName=Power Member=R60
+Removed Member From Class: ClassName=Power Member=R61
+Removed Member From Class: ClassName=Power Member=R62
+Removed Member From Class: ClassName=Power Member=R63
+Removed Member From Class: ClassName=Power Member=R64
+Removed Member From Class: ClassName=Power Member=R65
+Removed Member From Class: ClassName=Power Member=R66
+Removed Member From Class: ClassName=Power Member=R67
+Removed Member From Class: ClassName=Power Member=R68
+Removed Member From Class: ClassName=Power Member=R69
+Removed Member From Class: ClassName=Power Member=R70
+Removed Member From Class: ClassName=Power Member=R71
+Removed Member From Class: ClassName=Power Member=U17
+Removed Member From Class: ClassName=Power Member=U18
+Added Component: Designator=D1(0603 LED)
+Added Component: Designator=D2(0603 LED)
+Added Component: Designator=D3(0603 LED)
+Added Component: Designator=D4(0603 LED)
+Added Component: Designator=D5(0603 LED)
+Added Component: Designator=D6(0603 LED)
+Added Component: Designator=D7(0603 LED)
+Added Component: Designator=D8(0603 LED)
+Added Component: Designator=D9(0603 LED)
+Added Component: Designator=D10(0603 LED)
+Added Component: Designator=D11(0603 LED)
+Added Component: Designator=D12(0603 LED)
+Added Component: Designator=D13(0603 LED)
+Added Component: Designator=D14(0603 LED)
+Added Component: Designator=D15(0603 LED)
+Added Component: Designator=D16(0603 LED)
+Added Component: Designator=U15(SOP64P600X175-24N)
+Added Pin To Net: NetName=GND Pin=D1-2
+Added Pin To Net: NetName=GND Pin=D2-2
+Added Pin To Net: NetName=GND Pin=D3-2
+Added Pin To Net: NetName=GND Pin=D4-2
+Added Pin To Net: NetName=GND Pin=D5-2
+Added Pin To Net: NetName=GND Pin=D6-2
+Added Pin To Net: NetName=GND Pin=D7-2
+Added Pin To Net: NetName=GND Pin=D8-2
+Added Pin To Net: NetName=GND Pin=D9-2
+Added Pin To Net: NetName=GND Pin=D10-2
+Added Pin To Net: NetName=GND Pin=D11-2
+Added Pin To Net: NetName=GND Pin=D12-2
+Added Pin To Net: NetName=GND Pin=D13-2
+Added Pin To Net: NetName=GND Pin=D14-2
+Added Pin To Net: NetName=GND Pin=D15-2
+Added Pin To Net: NetName=GND Pin=D16-2
+Added Pin To Net: NetName=GND Pin=R56-2
+Added Pin To Net: NetName=GND Pin=U15-1
+Added Pin To Net: NetName=NetR56_1 Pin=U15-23
+Added Pin To Net: NetName=3V3 Pin=U15-24
+Added Pin To Net: NetName=LED_CLK Pin=U15-3
+Added Net: Name=LED_CLK
+Added Pin To Net: NetName=LED_CLR Pin=U15-21
+Added Net: Name=LED_CLR
+Added Pin To Net: NetName=LED_SIN Pin=U15-2
+Added Net: Name=LED_SIN
+Added Pin To Net: NetName=NetD1_1 Pin=D1-1
+Added Pin To Net: NetName=NetD1_1 Pin=U15-5
+Added Net: Name=NetD1_1
+Added Pin To Net: NetName=NetD2_1 Pin=D2-1
+Added Pin To Net: NetName=NetD2_1 Pin=U15-6
+Added Net: Name=NetD2_1
+Added Pin To Net: NetName=NetD3_1 Pin=D3-1
+Added Pin To Net: NetName=NetD3_1 Pin=U15-7
+Added Net: Name=NetD3_1
+Added Pin To Net: NetName=NetD4_1 Pin=D4-1
+Added Pin To Net: NetName=NetD4_1 Pin=U15-8
+Added Net: Name=NetD4_1
+Added Pin To Net: NetName=NetD5_1 Pin=D5-1
+Added Pin To Net: NetName=NetD5_1 Pin=U15-9
+Added Net: Name=NetD5_1
+Added Pin To Net: NetName=NetD6_1 Pin=D6-1
+Added Pin To Net: NetName=NetD6_1 Pin=U15-10
+Added Net: Name=NetD6_1
+Added Pin To Net: NetName=NetD7_1 Pin=D7-1
+Added Pin To Net: NetName=NetD7_1 Pin=U15-11
+Added Net: Name=NetD7_1
+Added Pin To Net: NetName=NetD8_1 Pin=D8-1
+Added Pin To Net: NetName=NetD8_1 Pin=U15-12
+Added Net: Name=NetD8_1
+Added Pin To Net: NetName=NetD9_1 Pin=D9-1
+Added Pin To Net: NetName=NetD9_1 Pin=U15-20
+Added Net: Name=NetD9_1
+Added Pin To Net: NetName=NetD10_1 Pin=D10-1
+Added Pin To Net: NetName=NetD10_1 Pin=U15-19
+Added Net: Name=NetD10_1
+Added Pin To Net: NetName=NetD11_1 Pin=D11-1
+Added Pin To Net: NetName=NetD11_1 Pin=U15-18
+Added Net: Name=NetD11_1
+Added Pin To Net: NetName=NetD12_1 Pin=D12-1
+Added Pin To Net: NetName=NetD12_1 Pin=U15-17
+Added Net: Name=NetD12_1
+Added Pin To Net: NetName=NetD13_1 Pin=D13-1
+Added Pin To Net: NetName=NetD13_1 Pin=U15-16
+Added Net: Name=NetD13_1
+Added Pin To Net: NetName=NetD14_1 Pin=D14-1
+Added Pin To Net: NetName=NetD14_1 Pin=U15-15
+Added Net: Name=NetD14_1
+Added Pin To Net: NetName=NetD15_1 Pin=D15-1
+Added Pin To Net: NetName=NetD15_1 Pin=U15-14
+Added Net: Name=NetD15_1
+Added Pin To Net: NetName=NetD16_1 Pin=D16-1
+Added Pin To Net: NetName=NetD16_1 Pin=U15-13
+Added Net: Name=NetD16_1
+Added Member To Class: ClassName=Power Member=Component D1
+Added Member To Class: ClassName=Power Member=Component D2
+Added Member To Class: ClassName=Power Member=Component D3
+Added Member To Class: ClassName=Power Member=Component D4
+Added Member To Class: ClassName=Power Member=Component D5
+Added Member To Class: ClassName=Power Member=Component D6
+Added Member To Class: ClassName=Power Member=Component D7
+Added Member To Class: ClassName=Power Member=Component D8
+Added Member To Class: ClassName=Power Member=Component D9
+Added Member To Class: ClassName=Power Member=Component D10
+Added Member To Class: ClassName=Power Member=Component D11
+Added Member To Class: ClassName=Power Member=Component D12
+Added Member To Class: ClassName=Power Member=Component D13
+Added Member To Class: ClassName=Power Member=Component D14
+Added Member To Class: ClassName=Power Member=Component D15
+Added Member To Class: ClassName=Power Member=Component D16
+Added Member To Class: ClassName=Power Member=Component U15 TLC59283DBQR
