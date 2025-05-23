@@ -1,9 +1,11 @@
-Record=TopLevelDocument|FileName=ADC and IMU.SchDoc|SheetNumber=5
-Record=NoMainPathDocument|SourceDocument=ADC and IMU.SchDoc|FileName=Alarms and Buttons.SchDoc|SheetNumber=6
-Record=NoMainPathDocument|SourceDocument=ADC and IMU.SchDoc|FileName=ATmega328p.SchDoc|SheetNumber=1
-Record=NoMainPathDocument|SourceDocument=ADC and IMU.SchDoc|FileName=Cables.SchDoc|SheetNumber=9
-Record=NoMainPathDocument|SourceDocument=ADC and IMU.SchDoc|FileName=Channels [1,2].SchDoc|SheetNumber=3
-Record=NoMainPathDocument|SourceDocument=ADC and IMU.SchDoc|FileName=Channels [3,4].SchDoc|SheetNumber=4
-Record=NoMainPathDocument|SourceDocument=ADC and IMU.SchDoc|FileName=Hardware.SchDoc|SheetNumber=8
-Record=NoMainPathDocument|SourceDocument=ADC and IMU.SchDoc|FileName=Power.SchDoc|SheetNumber=7
-Record=NoMainPathDocument|SourceDocument=ADC and IMU.SchDoc|FileName=Seeeduino and Temp.SchDoc|SheetNumber=2
+Record=TopLevelDocument|FileName=Accelerometer.SchDoc|SheetNumber=7
+Record=NoMainPathDocument|SourceDocument=Accelerometer.SchDoc|FileName=ADC.SchDoc|SheetNumber=5
+Record=NoMainPathDocument|SourceDocument=Accelerometer.SchDoc|FileName=Alarms and Buttons.SchDoc|SheetNumber=6
+Record=NoMainPathDocument|SourceDocument=Accelerometer.SchDoc|FileName=ATmega328p.SchDoc|SheetNumber=1
+Record=NoMainPathDocument|SourceDocument=Accelerometer.SchDoc|FileName=Cables.SchDoc|SheetNumber=11
+Record=NoMainPathDocument|SourceDocument=Accelerometer.SchDoc|FileName=Channels [1,2].SchDoc|SheetNumber=3
+Record=NoMainPathDocument|SourceDocument=Accelerometer.SchDoc|FileName=Channels [3,4].SchDoc|SheetNumber=4
+Record=NoMainPathDocument|SourceDocument=Accelerometer.SchDoc|FileName=Hardware.SchDoc|SheetNumber=10
+Record=NoMainPathDocument|SourceDocument=Accelerometer.SchDoc|FileName=LCD.SchDoc|SheetNumber=8
+Record=NoMainPathDocument|SourceDocument=Accelerometer.SchDoc|FileName=Power.SchDoc|SheetNumber=9
+Record=NoMainPathDocument|SourceDocument=Accelerometer.SchDoc|FileName=Seeeduino and Temp.SchDoc|SheetNumber=2
