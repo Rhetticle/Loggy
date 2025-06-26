@@ -4,7 +4,7 @@
 ![image2](https://github.com/user-attachments/assets/86f580f2-da47-4894-a557-aa4461093b21)
 
 ## Overview
-Loggy is a four input channel data acquisition device operating at 168 Samples/second with input channels being rated to +/- 12V. Loggy also has four extra channel (CH5 -> CH8) with CH5,CH6,CH7 being the x,y,z acceleration values from the on board accelerometer respectively and CH8 being the ambient temperature. Loggy also features two on board current sources (10uA and 200uA) accurate to +/- 5% for general.
+Loggy is a four input channel data acquisition device operating at 168 Samples/second with input channels being rated to +/- 12V. Loggy also has four extra channel (CH5 -> CH8) with CH5,CH6,CH7 being the x,y,z acceleration values from the on board accelerometer respectively and CH8 being the ambient temperature. Loggy also features two on board current sources (10uA and 200uA) accurate to +/- 5% for general use (e.g. using with resistive temperature sensors).
 
 Loggy features a simple on board alarm system which monitors the eight channels to see if any go beyond a configurable range (alarm threshold). 16 red LEDs (2 per channel) are used to indicate whether an alarm has occured or not for a given channel. Loggy allows alarms to be in one of three modes; disabled, live (alarm status updated repeatedly) or latching (triggered LED stays latched permenantly once threshold is breached). 
 
