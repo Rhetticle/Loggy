@@ -1,0 +1,217 @@
+------------------------
+Interaction with ChatGPT
+Date: 11/05/2025 11:30PM
+------------------------
+Purpose: To learn how to move lines between the graphs when updating/animating. Pverall, code from ChatGPT was referred to in terms of developing our own code for the Graph figures overall.
+
+Question:
+
+There should be a way to move a line on the volt graph to the temperature graph. On the plot, the first figure is for voltage and the last figure is for current
+
+class LiveGraph:
+    def __init__(self, frame: tk.Frame, name: tuple[str,...], y_labels: tuple[str,...], is_live_plot:bool = False):
+        """
+        Parameters
+        ----------
+        frame : tk.Frame
+            The frame where the graphs will be placed.
+        name : str
+            The name of the graph. e.g. Voltage
+        ylabel : str
+            The name of the y-axis. e.g. Volts (V)
+            The x-axis is always time in seconds.
+        """
+        self._ani = None
+        self._data = None
+        self._frame = frame  # frame that the graph is in
+        self._lines: dict[int, plt.Line2D] = {}
+        self._name = name  # name of the graph e.g. voltage, accel, temperature
+        num_rows = 1
+        fig_height = 4
+        if is_live_plot:
+            num_rows = 3
+            fig_height = 12
+        self._fig, self._ax = plt.subplots(nrows=num_rows, ncols=1, figsize=(18,fig_height))
+        self._fig.tight_layout(pad=3.5)
+        for i in range(num_rows):
+            self._ax[i].set_title(self._name[i])
+            self._ax[i].set_xlabel("Time (s)")
+            self._ax[i].set_ylabel(y_labels[i])
+            self._ax[i].grid(visible=True, axis='both')
+        self._upper_limit = [10.0, 10.0, 10.0]
+        self._lower_limit = [-10.0, -10.0, -10.0]
+
+        self._canvas = FigureCanvasTkAgg(self._fig, master=self._frame)
+        self._canvas_widget = self._canvas.get_tk_widget()
+        self._canvas_widget.grid()
+        self._canvas.draw()
+        self._toolbar = NavigationToolbar2Tk(canvas=self._canvas, window=self._frame, pack_toolbar=False)
+        self._toolbar.update()
+        self._toolbar.grid()
+        self.show_graph_volt = tk.BooleanVar(value=True)
+        self.show_graph_accel = tk.BooleanVar(value=True)
+        self.show_graph_temp = tk.BooleanVar(value=True)
+
+    def add_to_plot(self, x: list[float], y: list[float], channel: int):
+        """
+        Used to add a new curve to the graph. This plot isn't live.
+        :param x: the x-axis points.
+        :param y: the y-axis points.
+        :param channel: the name of the curve. e.g. CH1, CH2, etc.
+        :return:
+        """
+        line, = self._ax[0].plot(x, y, label=f"channel {channel}", marker='.')
+        self._ax[0].set_xlabel("Time (HH:MM:SS)")
+        self._lines[channel] = line
+        self._rebuild_legend()
+
+    def add_live_plot(self, channels: tuple, data: Data):
+        #---------------------------------Initialise Live Plots---------------------------------#
+        self._data = data
+        for ch in channels:
+            if ch in VOLT_CHANNELS:
+                line, = self._ax[0].plot([], [], label=f"channel {ch}", marker='.')
+            elif ch in ACCEL_CHANNELS:
+                line, = self._ax[1].plot([], [], label=f"channel {ch}", marker='.')
+            else:
+                line, = self._ax[2].plot([], [], label=f"channel {ch}", marker='.')
+            self._lines[ch] = line
+        #---------------------------Function that does the animating----------------------------#
+        def animate(_):
+            if not self._data.ready_to_plot():
+                return []
+
+            rows = self._data.get_data()
+
+            if len(rows[0]) < 4:
+                return []
+            # setting the lines
+            for channel, line_plt in self._lines.items():
+                line_plt.set_data(rows[0], rows[channel])
+            # Axis adjustments
+            for g in (V_GRAPH_IDX, A_GRAPH_IDX, T_GRAPH_IDX):
+                self._ax[g].set_ylim(self._lower_limit[g], self._upper_limit[g])
+                self._ax[g].set_xlim(rows[0][0], rows[0][-1])
+
+            return self._lines.values()
+        #----------------------FuncAnimation will keep on calling animate-----------------------#
+        self._ani = animation.FuncAnimation(
+            self._fig, animate,
+            interval=300,
+            cache_frame_data=False,
+            blit=False
+        )
+
+    def set_number_of_points(self, points: int):
+        if self._data:
+            self._data.change_size(points)
+
+    def set_upper_limit(self, idx:int, upper_new: float):
+        if self._lower_limit[idx] < upper_new:
+            self._upper_limit[idx] = upper_new
+
+    def set_lower_limit(self, idx:int, lower_new: float):
+        if  self._upper_limit[idx] > lower_new:
+            self._lower_limit[idx] = lower_new
+
+    def clear_graph(self):
+        """
+        Deletes the graphs data
+        """
+        if self._data:
+            self._data.clear_data()
+
+    def hide_line(self, channel: int):
+        """
+        Hides the line.
+        """
+        if channel in self._lines:
+            #print(f"hidden: ch{channel}")
+            line = self._lines[channel]
+            line.set_visible(False)
+            self._rebuild_legend()
+
+    def show_line(self, channel:int):
+        """
+        Displays the line
+        """
+        if channel in self._lines:
+            #print(f"showing: ch{channel}")
+            line = self._lines[channel]
+            line.set_visible(True)
+            self._rebuild_legend()
+
+    def _rebuild_legend(self):
+        """
+        Updates the legend so only visible graphs are shown.
+        """
+        handles, labels = self._ax.get_legend_handles_labels()
+        visible_handles = []
+        visible_labels = []
+        for h, l in zip(handles, labels):
+            if h.get_visible():
+                visible_handles.append(h)
+                visible_labels.append(l)
+        self._ax.legend(visible_handles, visible_labels, loc="upper left")
+
+    def toggle_graph(self, graph_type: str) -> None:
+        """
+        Can hide the entire plot or show the entire plot.
+        type is "V" for volts, "A" for acceleration, or "T" for time
+        """
+        idx = 0
+        match graph_type:
+            case "V":
+                toggle = self.show_graph_volt
+            case "A":
+                toggle = self.show_graph_accel
+                idx = 1
+            case "T":
+                toggle = self.show_graph_temp
+                idx = 2
+            case _:
+                return
+
+        if toggle.get():
+            self._ax[idx].set_axis_on()
+        else:
+            self._ax[idx].set_axis_off()
+
+
+ChatGPT said:
+
+Thought for 13 seconds
+You can do this by “re-parenting” a line from one Axes to another: grab its data, remove it from the old subplot, then re-plot it on the target subplot. Here’s how you might add a helper to your LiveGraph:
+
+python
+Copy
+Edit
+class LiveGraph:
+    # … your existing __init__ / methods …
+
+    def move_line(self, channel: int, to_temp: bool):
+        """
+        Move the given channel’s line from the voltage plot (ax[0])
+        to the temperature plot (ax[2]) if to_temp=True, or back if False.
+        """
+        if channel not in self._lines:
+            return
+
+        old_line = self._lines[channel]
+        x, y = old_line.get_xdata(), old_line.get_ydata()
+        old_line.remove()  # take it out of its current Axes
+
+        # decide target subplot index
+        target_idx = T_GRAPH_IDX if to_temp else V_GRAPH_IDX
+
+        # re-plot on the target Axes, preserving label/marker
+        new_line, = self._ax[target_idx].plot(
+            x, y,
+            label=old_line.get_label(),
+            marker=old_line.get_marker()
+        )
+
+        # update our record and rebuild the legend
+        self._lines[channel] = new_line
+        self._rebuild_legend()
+        self._canvas.draw_idle()
