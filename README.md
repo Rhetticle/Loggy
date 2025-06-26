@@ -8,7 +8,7 @@ Loggy is a four input channel data acquisition device operating at 168 Samples/s
 
 Loggy features a simple on board alarm system which monitors the eight channels to see if any go beyond a configurable range (alarm threshold). 16 red LEDs (2 per channel) are used to indicate whether an alarm has occured or not for a given channel. Loggy allows alarms to be in one of three modes; disabled, live (alarm status updated repeatedly) or latching (triggered LED stays latched permenantly once threshold is breached). 
 
-As part of the project a complete GUI was required which would interface to the PCB via USB to allow users to view live data from their computer as well as configure the device (See "Software" section below for more info). All measurements made by Loggy are also shown on a 20x4 LCD along with alarm statuses and range setting.
+As part of the project a complete GUI was required which would interface to the device via USB to allow users to view live data from their computer as well as configure the device (See "Software" section below for more info). All measurements made by Loggy are also shown on a 20x4 LCD along with alarm statuses and range setting.
 
 ## Standards and Requirements
 The Loggy device and software was required to comply with mock standards (known as "TP-Standards") to mimic real-world standard compliance. All teams were required to comply with 152 individual standards relating to things such as PCB layout and design, schematic layout and design, software design etc.
