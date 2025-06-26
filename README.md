@@ -1,5 +1,5 @@
 # Loggy
-Four input channel data acquisition device as part of UQ's ENGG2800 Team Project I course.
+## Four input channel data acquisition device as part of UQ's ENGG2800 Team Project I course.
 ![image5](https://github.com/user-attachments/assets/c2652dec-ee7c-4f25-ba55-043b2a7cf990)
 ![image2](https://github.com/user-attachments/assets/86f580f2-da47-4894-a557-aa4461093b21)
 
@@ -11,12 +11,23 @@ Loggy features a simple on board alarm system which monitors the eight channels 
 As part of the project a complete GUI was required which would interface to the PCB via USB to allow users to view live data from their computer as well as configure the device (See "Software" section below for more info). All measurements made by Loggy are also shown on a 20x4 LCD along with alarm statuses and range setting.
 
 ## Standards and Requirements
-The Loggy device was required to comply with mock standards (known as "TP-Standards") to mimic real-world standard compliance. All teams were required to comply with 152 individual standards relating to things such as PCB layout and design, schematic layout and design, software design etc.
+The Loggy device and software was required to comply with mock standards (known as "TP-Standards") to mimic real-world standard compliance. All teams were required to comply with 152 individual standards relating to things such as PCB layout and design, schematic layout and design, software design etc.
+
+The Loggy device and software also had multiple extra requirements on top of the TP-Standards. These requirements included:
+
+* All input channels must be rated for +/- 11V regardless of the range setting
+* The entire device must have a BOM of $100 or less
+* The GUI must never crash
+* Current sources must be accurate to +/- 5%
+* Input channel readings must be accurate to +/- 2.5%
+* ADCs used must be 16-bit resolution or higher
+* All eight channels must be sampled within a 100ms window
+* Sample rate must be at least 2 Samples/second
 
 ## Hardware
 All hardware design was done by Rhett Humphreys. This included designing the digital sections of the device such as the ADCs, MCU, alarm LED driver etc. as well as the analog sections such as the input circuitry for the four input channels. It also included the layout, routing and assembly of the PCB.
 
-The PCB is a standard 2 layer board 1.6mm thick with a 3V3 pour on the top layer and a GND pour on the bottom layer. Surface mount components were preferred w
+The PCB is a standard 2 layer board 1.6mm thick with a 3V3 pour on the top layer and a GND pour on the bottom layer. Surface mount components were preferred in order to stay under the $100 BOM limit. 
 
 ## Firmware
 Firmware was written by Zhe Gao. This included writing low level drivers for on board devices such as the ADCs, accelerometers and LED driver for alarms as well combining these drivers within the application code for Loggy.
