@@ -34,3 +34,17 @@ Firmware was written by Zhe Gao. This included writing low level drivers for on 
 
 ## Software
 The GUI software was jointly written by Luke Pidgeon and Sithika Mannakkara. The GUI was written in python and allows the user to view live plots of data read by Loggy as well as configure parameters of the device such as alarm thresholds and alarm types.
+### Controls
+The controls panel allows the user to connect to the Loggy device as well as perform other actions such as enabling/disabling different plots, changing the voltage range and choosing to begin recording data.
+![GUI Controls](https://github.com/user-attachments/assets/4c614713-8d56-4b0d-926d-e0235b70c67e)
+### Settings
+The settings panel allows the user to configure parameters stored on the Loggy device itself such as alarm thresholds and alarm types as well as other GUI parameters such as number of sample points to use for plots, plot scale etc. It also allows the user to configure a voltage channel to be used as a resistive temperature device (RTD) mode.
+![GUI Settings](https://github.com/user-attachments/assets/83619277-722d-4638-a523-d600078e53c3)
+### Plots
+The plots panel shows the current live plots and allows user to read sampled value by hovering their mouse over the plots
+![GUI Plots](https://github.com/user-attachments/assets/67ef6cd4-b12b-46c5-810f-472d371d5a23)
+### Replay
+The replay panel allows users to replay/view a data recording previously made. Recorded data is saved as a csv file which can then be imported into the GUI for viewing and also allows users to view the value of samples similar to the live plots.
+![GUI Replay](https://github.com/user-attachments/assets/da4a61c2-317a-4648-a5c0-e8fa4573c7be)
+
+
