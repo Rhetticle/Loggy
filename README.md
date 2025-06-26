@@ -1,5 +1,5 @@
 # Loggy
-## Four input channel data acquisition device as part of UQ's ENGG2800 Team Project I course.
+## Four input channel data acquisition device as part of UQ's ENGG2800 Team Project 1 course.
 ![image5](https://github.com/user-attachments/assets/c2652dec-ee7c-4f25-ba55-043b2a7cf990)
 ![image2](https://github.com/user-attachments/assets/86f580f2-da47-4894-a557-aa4461093b21)
 
